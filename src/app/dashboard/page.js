@@ -606,13 +606,14 @@ export default function DashboardPage() {
                     {/* Donut Chart SVG */}
                     <div className="relative w-[180px] h-[180px] flex-shrink-0">
                       <svg className="w-full h-full transform -rotate-90" viewBox="0 0 100 100">
-                        {(() => {
-                          let cumulative = 0;
-                          return BENEFICIARY_DISTRIBUTION.map((seg, idx) => {
-                            const strokeDasharray = `${seg.value * 2.83} 283`;
-                            const strokeDashoffset = `-${cumulative * 2.83}`;
-                            cumulative += seg.value;
-                            const isHov = hoveredDonut === idx;
+                        {BENEFICIARY_DISTRIBUTION.reduce((acc, seg, idx) => {
+                          const prevCumulative = idx === 0 ? 0 : acc[idx - 1].cumulative + acc[idx - 1].value;
+                          acc.push({ ...seg, cumulative: prevCumulative });
+                          return acc;
+                        }, []).map((seg, idx) => {
+                          const strokeDasharray = `${seg.value * 2.83} 283`;
+                          const strokeDashoffset = `-${seg.cumulative * 2.83}`;
+                          const isHov = hoveredDonut === idx;
 
                             return (
                               <circle
@@ -630,8 +631,7 @@ export default function DashboardPage() {
                                 onMouseLeave={() => setHoveredDonut(null)}
                               />
                             );
-                          });
-                        })()}
+                          })}
                       </svg>
                       {/* Center label */}
                       <div className="absolute inset-0 flex flex-col items-center justify-center pointer-events-none">

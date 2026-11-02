@@ -819,8 +819,8 @@ export default function MediaCoveragePage() {
               className="will-change-transform"
               style={{
                 transform: `translate(${pan.x}px, ${pan.y}px) scale(${zoom})`,
-                cursor: zoom > 1 ? (isDragging.current ? 'grabbing' : 'grab') : 'zoom-in',
-                transition: isDragging.current ? 'none' : 'transform 0.18s ease-out'
+                cursor: zoom > 1 ? 'grab' : 'zoom-in',
+                transition: 'transform 0.18s ease-out'
               }}
               onPointerDown={(e) => {
                 if (zoom <= 1) return;
