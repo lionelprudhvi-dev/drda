@@ -41,7 +41,7 @@ export default function AboutDRDA() {
         {/* 2. Main Identity Header */}
         <div className="bg-white text-[#002147] px-4 py-3 border-b border-[#E2E8F0]">
           <div className="max-w-7xl mx-auto flex items-center justify-between gap-4">
-            <Link className="flex items-center gap-3 min-w-0" href="/drda/">
+            <Link className="flex items-center gap-3 min-w-0" href="/">
               <div className="w-12 h-12 sm:w-14 sm:h-14 rounded-full bg-white overflow-hidden flex-shrink-0 shadow-md border-2 border-[#E2E8F0]">
                 <img alt="Government of Andhra Pradesh Emblem" width="56" height="56" className="w-full h-full object-cover" src="/drda/images/ap-emblem.jpg" />
               </div>
@@ -71,7 +71,7 @@ export default function AboutDRDA() {
           <div className="max-w-7xl mx-auto px-4 flex items-center justify-between">
             <ul className="flex items-center gap-1 py-1">
               <li>
-                <Link className="text-xs font-semibold px-3 py-2 text-[#002147] hover:text-[#D97706] hover:bg-[#FEF9C3] rounded-full transition-colors inline-block" href="/drda/">Home</Link>
+                <Link className="text-xs font-semibold px-3 py-2 text-[#002147] hover:text-[#D97706] hover:bg-[#FEF9C3] rounded-full transition-colors inline-block" href="/">Home</Link>
               </li>
               {/* Active About Dropdown */}
               <li className="relative group">
@@ -192,7 +192,7 @@ export default function AboutDRDA() {
           <div className="relative max-w-7xl mx-auto px-4 z-10">
             <div className="max-w-2xl">
               <div className="flex items-center gap-2 text-xs text-[#EA580C] font-bold mb-3 uppercase tracking-wider drop-shadow-sm">
-                <Link className="hover:underline text-[#002147]" href="/drda/">Home</Link>
+                <Link className="hover:underline text-[#002147]" href="/">Home</Link>
                 <span>/</span>
                 <span className="text-[#EA580C]">About DRDA</span>
               </div>
@@ -236,19 +236,19 @@ export default function AboutDRDA() {
         {/* Section Navigation Strip */}
         <div className="bg-[#FFFDF7] border-b border-[#FDE68A]/60 py-3">
           <div className="max-w-7xl mx-auto px-4 flex flex-wrap items-center justify-center gap-2">
-            <Link href="/drda/about/drda" className="text-xs font-bold px-4 py-1.5 rounded-full bg-[#FFD22C] text-[#0F172A] shadow-sm">
+            <Link href="/about/drda" className="text-xs font-bold px-4 py-1.5 rounded-full bg-[#FFD22C] text-[#0F172A] shadow-sm">
               About DRDA
             </Link>
-            <Link href="/drda/about/district" className="text-xs font-semibold px-4 py-1.5 rounded-full border border-gray-200 hover:bg-[#FEF9C3] hover:text-[#002147] transition-colors">
+            <Link href="/about/district" className="text-xs font-semibold px-4 py-1.5 rounded-full border border-gray-200 hover:bg-[#FEF9C3] hover:text-[#002147] transition-colors">
               District Profile
             </Link>
-            <Link href="/drda/about/structure" className="text-xs font-semibold px-4 py-1.5 rounded-full border border-gray-200 hover:bg-[#FEF9C3] hover:text-[#002147] transition-colors">
+            <Link href="/about/structure" className="text-xs font-semibold px-4 py-1.5 rounded-full border border-gray-200 hover:bg-[#FEF9C3] hover:text-[#002147] transition-colors">
               Administrative Structure
             </Link>
-            <Link href="/drda/about/whos-who" className="text-xs font-semibold px-4 py-1.5 rounded-full border border-gray-200 hover:bg-[#FEF9C3] hover:text-[#002147] transition-colors">
+            <Link href="/about/whos-who" className="text-xs font-semibold px-4 py-1.5 rounded-full border border-gray-200 hover:bg-[#FEF9C3] hover:text-[#002147] transition-colors">
               Who&#x27;s Who
             </Link>
-            <Link href="/drda/serp" className="text-xs font-semibold px-4 py-1.5 rounded-full border border-gray-200 hover:bg-[#FEF9C3] hover:text-[#002147] transition-colors">
+            <Link href="/serp" className="text-xs font-semibold px-4 py-1.5 rounded-full border border-gray-200 hover:bg-[#FEF9C3] hover:text-[#002147] transition-colors">
               SERP Corner
             </Link>
           </div>
@@ -403,23 +403,23 @@ export default function AboutDRDA() {
           <div className="max-w-7xl mx-auto px-4 text-center">
             <h3 className="text-lg font-black text-[#002147] mb-6">Explore Key Portals &amp; Sections</h3>
             <div className="flex flex-wrap items-center justify-center gap-3">
-              <Link href="/drda/about/district" className="inline-flex items-center gap-2 bg-white hover:bg-[#FFD22C] text-[#002147] font-bold text-xs px-5 py-2.5 rounded-full border border-gray-200 shadow-sm transition-all">
+              <Link href="/about/district" className="inline-flex items-center gap-2 bg-white hover:bg-[#FFD22C] text-[#002147] font-bold text-xs px-5 py-2.5 rounded-full border border-gray-200 shadow-sm transition-all">
                 <span>District Profile</span>
                 <span className="text-[#D97706]">→</span>
               </Link>
-              <Link href="/drda/about/structure" className="inline-flex items-center gap-2 bg-white hover:bg-[#FFD22C] text-[#002147] font-bold text-xs px-5 py-2.5 rounded-full border border-gray-200 shadow-sm transition-all">
+              <Link href="/about/structure" className="inline-flex items-center gap-2 bg-white hover:bg-[#FFD22C] text-[#002147] font-bold text-xs px-5 py-2.5 rounded-full border border-gray-200 shadow-sm transition-all">
                 <span>Organizational Structure</span>
                 <span className="text-[#D97706]">→</span>
               </Link>
-              <Link href="/drda/about/whos-who" className="inline-flex items-center gap-2 bg-white hover:bg-[#FFD22C] text-[#002147] font-bold text-xs px-5 py-2.5 rounded-full border border-gray-200 shadow-sm transition-all">
+              <Link href="/about/whos-who" className="inline-flex items-center gap-2 bg-white hover:bg-[#FFD22C] text-[#002147] font-bold text-xs px-5 py-2.5 rounded-full border border-gray-200 shadow-sm transition-all">
                 <span>Who&#x27;s Who Directory</span>
                 <span className="text-[#D97706]">→</span>
               </Link>
-              <Link href="/drda/schemes" className="inline-flex items-center gap-2 bg-white hover:bg-[#FFD22C] text-[#002147] font-bold text-xs px-5 py-2.5 rounded-full border border-gray-200 shadow-sm transition-all">
+              <Link href="/schemes" className="inline-flex items-center gap-2 bg-white hover:bg-[#FFD22C] text-[#002147] font-bold text-xs px-5 py-2.5 rounded-full border border-gray-200 shadow-sm transition-all">
                 <span>Welfare Schemes</span>
                 <span className="text-[#D97706]">→</span>
               </Link>
-              <Link href="/drda/pgrs" className="inline-flex items-center gap-2 bg-white hover:bg-[#FFD22C] text-[#002147] font-bold text-xs px-5 py-2.5 rounded-full border border-gray-200 shadow-sm transition-all">
+              <Link href="/pgrs" className="inline-flex items-center gap-2 bg-white hover:bg-[#FFD22C] text-[#002147] font-bold text-xs px-5 py-2.5 rounded-full border border-gray-200 shadow-sm transition-all">
                 <span>Lodge Grievance</span>
                 <span className="text-[#D97706]">→</span>
               </Link>
@@ -461,13 +461,13 @@ export default function AboutDRDA() {
               Quick Links
             </h4>
             <ul className="text-xs space-y-2 text-gray-300">
-              <li><Link className="hover:text-[#FFD22C] transition-colors" href="/drda/">Home</Link></li>
-              <li><Link className="hover:text-[#FFD22C] transition-colors" href="/drda/about/drda">About Us</Link></li>
-              <li><Link className="hover:text-[#FFD22C] transition-colors" href="/drda/about/district">District Profile</Link></li>
-              <li><Link className="hover:text-[#FFD22C] transition-colors" href="/drda/about/structure">Administrative Structure</Link></li>
-              <li><Link className="hover:text-[#FFD22C] transition-colors" href="/drda/about/whos-who">Who&#x27;s Who</Link></li>
-              <li><Link className="hover:text-[#FFD22C] transition-colors" href="/drda/citizen-services">Citizen Services</Link></li>
-              <li><Link className="hover:text-[#FFD22C] transition-colors" href="/drda/dashboard">Dashboard</Link></li>
+              <li><Link className="hover:text-[#FFD22C] transition-colors" href="/">Home</Link></li>
+              <li><Link className="hover:text-[#FFD22C] transition-colors" href="/about/drda">About Us</Link></li>
+              <li><Link className="hover:text-[#FFD22C] transition-colors" href="/about/district">District Profile</Link></li>
+              <li><Link className="hover:text-[#FFD22C] transition-colors" href="/about/structure">Administrative Structure</Link></li>
+              <li><Link className="hover:text-[#FFD22C] transition-colors" href="/about/whos-who">Who&#x27;s Who</Link></li>
+              <li><Link className="hover:text-[#FFD22C] transition-colors" href="/citizen-services">Citizen Services</Link></li>
+              <li><Link className="hover:text-[#FFD22C] transition-colors" href="/dashboard">Dashboard</Link></li>
             </ul>
           </div>
 
@@ -477,12 +477,12 @@ export default function AboutDRDA() {
               Citizen Services
             </h4>
             <ul className="text-xs space-y-2 text-gray-300">
-              <li><Link className="hover:text-[#FFD22C] transition-colors" href="/drda/pgrs">Public Grievances (PGRS)</Link></li>
-              <li><Link className="hover:text-[#FFD22C] transition-colors" href="/drda/ivrs">IVRS Helpline 1902</Link></li>
-              <li><Link className="hover:text-[#FFD22C] transition-colors" href="/drda/schemes">YSR Cheyutha &amp; Aasara</Link></li>
-              <li><Link className="hover:text-[#FFD22C] transition-colors" href="/drda/fpo">FPO Network</Link></li>
-              <li><Link className="hover:text-[#FFD22C] transition-colors" href="/drda/knowledge-center">Downloads &amp; Guidelines</Link></li>
-              <li><Link className="hover:text-[#FFD22C] transition-colors" href="/drda/feedback">Feedback Form</Link></li>
+              <li><Link className="hover:text-[#FFD22C] transition-colors" href="/pgrs">Public Grievances (PGRS)</Link></li>
+              <li><Link className="hover:text-[#FFD22C] transition-colors" href="/ivrs">IVRS Helpline 1902</Link></li>
+              <li><Link className="hover:text-[#FFD22C] transition-colors" href="/schemes">YSR Cheyutha &amp; Aasara</Link></li>
+              <li><Link className="hover:text-[#FFD22C] transition-colors" href="/fpo">FPO Network</Link></li>
+              <li><Link className="hover:text-[#FFD22C] transition-colors" href="/knowledge-center">Downloads &amp; Guidelines</Link></li>
+              <li><Link className="hover:text-[#FFD22C] transition-colors" href="/feedback">Feedback Form</Link></li>
             </ul>
           </div>
 
