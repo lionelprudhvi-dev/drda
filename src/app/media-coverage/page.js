@@ -5,7 +5,7 @@ import React, { useState, useEffect, useRef, useMemo } from 'react';
 const CLIPPINGS = [
   {
     id: 1,
-    src: '/press/clippings/clip-01.jpg',
+    src: '/drda/press/clippings/clip-01.jpg',
     source: 'Sakshi',
     topic: 'Super Nari App Rally',
     date: '2026-06-02',
@@ -13,7 +13,7 @@ const CLIPPINGS = [
   },
   {
     id: 2,
-    src: '/press/clippings/clip-02.jpg',
+    src: '/drda/press/clippings/clip-02.jpg',
     source: 'Eenadu',
     topic: 'Super Nari App Rally',
     date: '2026-06-02',
@@ -21,7 +21,7 @@ const CLIPPINGS = [
   },
   {
     id: 3,
-    src: '/press/clippings/clip-03.jpg',
+    src: '/drda/press/clippings/clip-03.jpg',
     source: 'Prajasakti',
     topic: 'Super Nari App Rally',
     date: '2026-06-02',
@@ -29,7 +29,7 @@ const CLIPPINGS = [
   },
   {
     id: 4,
-    src: '/press/clippings/clip-04.jpg',
+    src: '/drda/press/clippings/clip-04.jpg',
     source: 'Visalandhra',
     topic: 'Super Nari App Rally',
     date: '2026-06-02',
@@ -37,7 +37,7 @@ const CLIPPINGS = [
   },
   {
     id: 5,
-    src: '/press/clippings/clip-05.jpg',
+    src: '/drda/press/clippings/clip-05.jpg',
     source: 'Eenadu',
     topic: 'One Family One Entrepreneur',
     date: '2026-06-02',
@@ -45,7 +45,7 @@ const CLIPPINGS = [
   },
   {
     id: 6,
-    src: '/press/clippings/clip-06.jpg',
+    src: '/drda/press/clippings/clip-06.jpg',
     source: 'Andhra Prabha',
     topic: 'One Family One Entrepreneur',
     date: '2026-06-02',
@@ -53,7 +53,7 @@ const CLIPPINGS = [
   },
   {
     id: 7,
-    src: '/press/clippings/clip-07.jpg',
+    src: '/drda/press/clippings/clip-07.jpg',
     source: 'Prajasakti',
     topic: 'One Family One Entrepreneur',
     date: '2026-06-02',
@@ -61,7 +61,7 @@ const CLIPPINGS = [
   },
   {
     id: 8,
-    src: '/press/clippings/clip-08.jpg',
+    src: '/drda/press/clippings/clip-08.jpg',
     source: 'Andhra Jyothy',
     topic: 'One Family One Entrepreneur',
     date: '2026-06-02',
@@ -69,7 +69,7 @@ const CLIPPINGS = [
   },
   {
     id: 9,
-    src: '/press/clippings/clip-09.jpg',
+    src: '/drda/press/clippings/clip-09.jpg',
     source: 'Andhra Jyothy',
     topic: 'One Family One Entrepreneur',
     date: '2026-06-02',
@@ -77,7 +77,7 @@ const CLIPPINGS = [
   },
   {
     id: 10,
-    src: '/press/clippings/clip-10.jpg',
+    src: '/drda/press/clippings/clip-10.jpg',
     source: 'Sakshi',
     topic: 'NTR Bharosa Pensions',
     date: '2026-06-02',
@@ -85,7 +85,7 @@ const CLIPPINGS = [
   },
   {
     id: 11,
-    src: '/press/clippings/clip-11.jpg',
+    src: '/drda/press/clippings/clip-11.jpg',
     source: 'Eenadu',
     topic: 'NTR Bharosa Pensions',
     date: '2026-06-02',
@@ -93,7 +93,7 @@ const CLIPPINGS = [
   },
   {
     id: 12,
-    src: '/press/clippings/clip-12.jpg',
+    src: '/drda/press/clippings/clip-12.jpg',
     source: 'Visalandhra',
     topic: 'NTR Bharosa Pensions',
     date: '2026-06-02',
@@ -101,7 +101,7 @@ const CLIPPINGS = [
   },
   {
     id: 13,
-    src: '/press/clippings/clip-13.jpg',
+    src: '/drda/press/clippings/clip-13.jpg',
     source: 'Andhra Jyothy',
     topic: 'NTR Bharosa Pensions',
     date: '2026-06-02',
@@ -109,7 +109,7 @@ const CLIPPINGS = [
   },
   {
     id: 14,
-    src: '/press/clippings/clip-14.jpg',
+    src: '/drda/press/clippings/clip-14.jpg',
     source: 'Eenadu',
     topic: 'NTR Bharosa Pensions',
     date: '2026-06-02',
@@ -117,7 +117,7 @@ const CLIPPINGS = [
   },
   {
     id: 15,
-    src: '/press/clippings/clip-15.jpg',
+    src: '/drda/press/clippings/clip-15.jpg',
     source: 'Andhra Prabha',
     topic: 'NTR Bharosa Pensions',
     date: '2026-06-02',
@@ -125,7 +125,7 @@ const CLIPPINGS = [
   },
   {
     id: 16,
-    src: '/press/clippings/clip-16.jpg',
+    src: '/drda/press/clippings/clip-16.jpg',
     source: 'Andhra Prabha',
     topic: 'NTR Bharosa Pensions',
     date: '2026-06-02',
