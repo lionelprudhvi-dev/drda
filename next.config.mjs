@@ -7,8 +7,6 @@ const nextConfig = {
   images: {
     unoptimized: true,
   },
-  cacheComponents: true,
-  partialPrefetching: true,
   reactCompiler: true,
   experimental: {
     agentUpgrade: "security",
