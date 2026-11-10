@@ -25,11 +25,11 @@ export default function Home() {
               </a>
               <span className="w-px h-3 bg-[#BAE6FD]"></span>
               <div className="flex items-center gap-2 text-[#475569] text-[11px]">
-                <Link href="/" className="hover:text-[#002147]">Home</Link>
+                <Link href="/drda/" className="hover:text-[#002147]">Home</Link>
                 <span>|</span>
-                <a href="/sitemap" className="hover:text-[#002147]">Sitemap</a>
+                <a href="/drda/sitemap" className="hover:text-[#002147]">Sitemap</a>
                 <span>|</span>
-                <a href="/login" className="hover:text-[#002147]">Login / Sign Up</a>
+                <a href="/drda/login" className="hover:text-[#002147]">Login / Sign Up</a>
               </div>
               <button aria-label="Search" className="p-1 text-[#002147] hover:text-[#EA580C]">
                 <svg xmlns="http://www.w3.org/2000/svg" width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.3-4.3"/></svg>
@@ -44,9 +44,9 @@ export default function Home() {
         {/* 2. Main White Branding Bar */}
         <div className="bg-white text-[#002147] px-4 py-3 border-b border-[#E2E8F0]">
           <div className="max-w-7xl mx-auto flex items-center justify-between gap-4">
-            <Link className="flex items-center gap-3 min-w-0" href="/">
+            <Link className="flex items-center gap-3 min-w-0" href="/drda/">
               <div className="w-12 h-12 sm:w-14 sm:h-14 rounded-full bg-white overflow-hidden flex-shrink-0 shadow-md border-2 border-[#E2E8F0]">
-                <img alt="Government of Andhra Pradesh Emblem" width="56" height="56" className="w-full h-full object-cover" src="/images/ap-emblem.jpg" />
+                <img alt="Government of Andhra Pradesh Emblem" width="56" height="56" className="w-full h-full object-cover" src="/drda/images/ap-emblem.jpg" />
               </div>
               <div className="min-w-0">
                 <div className="text-[11px] sm:text-xs text-[#475569] font-medium leading-tight">Government of Andhra Pradesh</div>
@@ -62,7 +62,7 @@ export default function Home() {
                 <span>Vizianagaram Maps</span>
                 <svg xmlns="http://www.w3.org/2000/svg" width="11" height="11" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="m6 9 6 6 6-6"/></svg>
               </a>
-              <a className="hidden md:flex items-center gap-1.5 bg-[#FFD22C] hover:bg-[#F59E0B] text-[#0F172A] font-extrabold text-xs px-3.5 py-2 rounded-full shadow-sm transition-colors" href="/mart">
+              <a className="hidden md:flex items-center gap-1.5 bg-[#FFD22C] hover:bg-[#F59E0B] text-[#0F172A] font-extrabold text-xs px-3.5 py-2 rounded-full shadow-sm transition-colors" href="/drda/mart">
                 <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M16 10a4 4 0 0 1-8 0"/><path d="M3.1 6h17.8"/><path d="M3.4 5.5a2 2 0 0 0-.4 1.2V20a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V6.7a2 2 0 0 0-.4-1.2l-2-2.7A2 2 0 0 0 17 2H7a2 2 0 0 0-1.6.8z"/></svg>
                 <span>Mart</span>
               </a>
@@ -76,79 +76,79 @@ export default function Home() {
             <ul className="flex items-center gap-1 py-1">
               {/* Active Home Tab as Golden Yellow Pill */}
               <li>
-                <Link className="bg-[#FFD22C] text-[#0F172A] font-extrabold text-xs px-4 py-1.5 rounded-full shadow-sm inline-block" href="/">Home</Link>
+                <Link className="bg-[#FFD22C] text-[#0F172A] font-extrabold text-xs px-4 py-1.5 rounded-full shadow-sm inline-block" href="/drda/">Home</Link>
               </li>
               <li className="relative group">
-                <a className="flex items-center gap-1 text-xs font-semibold px-3 py-2 text-[#002147] hover:text-[#D97706] hover:bg-[#FEF9C3] rounded-full transition-colors" href="/about/drda">
+                <a className="flex items-center gap-1 text-xs font-semibold px-3 py-2 text-[#002147] hover:text-[#D97706] hover:bg-[#FEF9C3] rounded-full transition-colors" href="/drda/about/drda">
                   About
                   <svg xmlns="http://www.w3.org/2000/svg" width="10" height="10" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="m6 9 6 6 6-6"/></svg>
                 </a>
                 <div className="absolute left-0 top-full pt-1 opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-200 z-50">
                   <div className="bg-white rounded-xl shadow-xl border border-gray-100 py-2 w-52 overflow-hidden">
-                    <a href="/about/drda" className="block px-4 py-2 text-xs font-semibold text-[#002147] hover:bg-[#FEFCE8] hover:text-[#D97706]">About DRDA</a>
-                    <a href="/about/district" className="block px-4 py-2 text-xs font-semibold text-[#002147] hover:bg-[#FEFCE8] hover:text-[#D97706]">District Profile</a>
-                    <a href="/about/structure" className="block px-4 py-2 text-xs font-semibold text-[#002147] hover:bg-[#FEFCE8] hover:text-[#D97706]">Administrative Structure</a>
-                    <a href="/about/whos-who" className="block px-4 py-2 text-xs font-semibold text-[#002147] hover:bg-[#FEFCE8] hover:text-[#D97706]">Who&#x27;s Who</a>
+                    <a href="/drda/about/drda" className="block px-4 py-2 text-xs font-semibold text-[#002147] hover:bg-[#FEFCE8] hover:text-[#D97706]">About DRDA</a>
+                    <a href="/drda/about/district" className="block px-4 py-2 text-xs font-semibold text-[#002147] hover:bg-[#FEFCE8] hover:text-[#D97706]">District Profile</a>
+                    <a href="/drda/about/structure" className="block px-4 py-2 text-xs font-semibold text-[#002147] hover:bg-[#FEFCE8] hover:text-[#D97706]">Administrative Structure</a>
+                    <a href="/drda/about/whos-who" className="block px-4 py-2 text-xs font-semibold text-[#002147] hover:bg-[#FEFCE8] hover:text-[#D97706]">Who&#x27;s Who</a>
                   </div>
                 </div>
               </li>
               <li className="relative group">
-                <a className="flex items-center gap-1 text-xs font-semibold px-3 py-2 text-[#002147] hover:text-[#D97706] hover:bg-[#FEF9C3] rounded-full transition-colors" href="/citizen-services">
+                <a className="flex items-center gap-1 text-xs font-semibold px-3 py-2 text-[#002147] hover:text-[#D97706] hover:bg-[#FEF9C3] rounded-full transition-colors" href="/drda/citizen-services">
                   Citizen Services
                   <svg xmlns="http://www.w3.org/2000/svg" width="10" height="10" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="m6 9 6 6 6-6"/></svg>
                 </a>
                 <div className="absolute left-0 top-full pt-1 opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-200 z-50">
                   <div className="bg-white rounded-xl shadow-xl border border-gray-100 py-2 w-56 overflow-hidden">
-                    <a href="/citizen-services" className="block px-4 py-2 text-xs font-bold text-[#002147] hover:bg-[#FEFCE8] hover:text-[#D97706] border-b border-gray-50">All Citizen Services</a>
-                    <a href="/schemes" className="block px-4 py-2 text-xs font-semibold text-[#002147] hover:bg-[#FEFCE8] hover:text-[#D97706]">Explore Schemes</a>
-                    <a href="/pgrs" className="block px-4 py-2 text-xs font-semibold text-[#002147] hover:bg-[#FEFCE8] hover:text-[#D97706]">Share Concern (PGRS)</a>
-                    <a href="/ivrs" className="block px-4 py-2 text-xs font-semibold text-[#002147] hover:bg-[#FEFCE8] hover:text-[#D97706]">IVRS Helpline 1902</a>
-                    <a href="/knowledge-center" className="block px-4 py-2 text-xs font-semibold text-[#002147] hover:bg-[#FEFCE8] hover:text-[#D97706]">Knowledge Center</a>
-                    <a href="/events" className="block px-4 py-2 text-xs font-semibold text-[#002147] hover:bg-[#FEFCE8] hover:text-[#D97706]">Events &amp; Training</a>
+                    <a href="/drda/citizen-services" className="block px-4 py-2 text-xs font-bold text-[#002147] hover:bg-[#FEFCE8] hover:text-[#D97706] border-b border-gray-50">All Citizen Services</a>
+                    <a href="/drda/schemes" className="block px-4 py-2 text-xs font-semibold text-[#002147] hover:bg-[#FEFCE8] hover:text-[#D97706]">Explore Schemes</a>
+                    <a href="/drda/pgrs" className="block px-4 py-2 text-xs font-semibold text-[#002147] hover:bg-[#FEFCE8] hover:text-[#D97706]">Share Concern (PGRS)</a>
+                    <a href="/drda/ivrs" className="block px-4 py-2 text-xs font-semibold text-[#002147] hover:bg-[#FEFCE8] hover:text-[#D97706]">IVRS Helpline 1902</a>
+                    <a href="/drda/knowledge-center" className="block px-4 py-2 text-xs font-semibold text-[#002147] hover:bg-[#FEFCE8] hover:text-[#D97706]">Knowledge Center</a>
+                    <a href="/drda/events" className="block px-4 py-2 text-xs font-semibold text-[#002147] hover:bg-[#FEFCE8] hover:text-[#D97706]">Events &amp; Training</a>
                   </div>
                 </div>
               </li>
               <li className="relative group">
-                <a className="flex items-center gap-1 text-xs font-semibold px-3 py-2 text-[#002147] hover:text-[#D97706] hover:bg-[#FEF9C3] rounded-full transition-colors" href="/schemes">
+                <a className="flex items-center gap-1 text-xs font-semibold px-3 py-2 text-[#002147] hover:text-[#D97706] hover:bg-[#FEF9C3] rounded-full transition-colors" href="/drda/schemes">
                   Schemes
                   <svg xmlns="http://www.w3.org/2000/svg" width="10" height="10" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="m6 9 6 6 6-6"/></svg>
                 </a>
                 <div className="absolute left-0 top-full pt-1 opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-200 z-50">
                   <div className="bg-white rounded-xl shadow-xl border border-gray-100 py-2 w-52 overflow-hidden">
-                    <a href="/schemes" className="block px-4 py-2 text-xs font-semibold text-[#002147] hover:bg-[#FEFCE8] hover:text-[#D97706]">Explore Schemes</a>
-                    <a href="/knowledge-center" className="block px-4 py-2 text-xs font-semibold text-[#002147] hover:bg-[#FEFCE8] hover:text-[#D97706]">Guidelines &amp; Manuals</a>
+                    <a href="/drda/schemes" className="block px-4 py-2 text-xs font-semibold text-[#002147] hover:bg-[#FEFCE8] hover:text-[#D97706]">Explore Schemes</a>
+                    <a href="/drda/knowledge-center" className="block px-4 py-2 text-xs font-semibold text-[#002147] hover:bg-[#FEFCE8] hover:text-[#D97706]">Guidelines &amp; Manuals</a>
                     <a href="https://www.myscheme.gov.in" target="_blank" rel="noopener noreferrer" className="block px-4 py-2 text-xs font-semibold text-[#002147] hover:bg-[#FEFCE8] hover:text-[#D97706]">myScheme Portal ↗</a>
                   </div>
                 </div>
               </li>
               <li className="relative group">
-                <a className="flex items-center gap-1 text-xs font-semibold px-3 py-2 text-[#002147] hover:text-[#D97706] hover:bg-[#FEF9C3] rounded-full transition-colors" href="/fpo">
+                <a className="flex items-center gap-1 text-xs font-semibold px-3 py-2 text-[#002147] hover:text-[#D97706] hover:bg-[#FEF9C3] rounded-full transition-colors" href="/drda/fpo">
                   Livelihoods
                   <svg xmlns="http://www.w3.org/2000/svg" width="10" height="10" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="m6 9 6 6 6-6"/></svg>
                 </a>
                 <div className="absolute left-0 top-full pt-1 opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-200 z-50">
                   <div className="bg-white rounded-xl shadow-xl border border-gray-100 py-2 w-56 overflow-hidden">
-                    <a href="/fpo" className="block px-4 py-2 text-xs font-semibold text-[#002147] hover:bg-[#FEFCE8] hover:text-[#D97706]">FPO Network (15 Mandals)</a>
-                    <a href="/success-stories" className="block px-4 py-2 text-xs font-semibold text-[#002147] hover:bg-[#FEFCE8] hover:text-[#D97706]">Women Entrepreneurship</a>
-                    <a href="/citizen-services" className="block px-4 py-2 text-xs font-semibold text-[#002147] hover:bg-[#FEFCE8] hover:text-[#D97706]">One Family One Entrepreneur</a>
+                    <a href="/drda/fpo" className="block px-4 py-2 text-xs font-semibold text-[#002147] hover:bg-[#FEFCE8] hover:text-[#D97706]">FPO Network (15 Mandals)</a>
+                    <a href="/drda/success-stories" className="block px-4 py-2 text-xs font-semibold text-[#002147] hover:bg-[#FEFCE8] hover:text-[#D97706]">Women Entrepreneurship</a>
+                    <a href="/drda/citizen-services" className="block px-4 py-2 text-xs font-semibold text-[#002147] hover:bg-[#FEFCE8] hover:text-[#D97706]">One Family One Entrepreneur</a>
                   </div>
                 </div>
               </li>
               <li>
-                <a className="text-xs font-semibold px-3 py-2 text-[#002147] hover:text-[#D97706] hover:bg-[#FEF9C3] rounded-full transition-colors" href="/media-coverage">Media</a>
+                <a className="text-xs font-semibold px-3 py-2 text-[#002147] hover:text-[#D97706] hover:bg-[#FEF9C3] rounded-full transition-colors" href="/drda/media-coverage">Media</a>
               </li>
               <li>
-                <a className="text-xs font-semibold px-3 py-2 text-[#002147] hover:text-[#D97706] hover:bg-[#FEF9C3] rounded-full transition-colors" href="/success-stories">Success Stories</a>
+                <a className="text-xs font-semibold px-3 py-2 text-[#002147] hover:text-[#D97706] hover:bg-[#FEF9C3] rounded-full transition-colors" href="/drda/success-stories">Success Stories</a>
               </li>
               <li>
-                <a className="text-xs font-semibold px-3 py-2 text-[#002147] hover:text-[#D97706] hover:bg-[#FEF9C3] rounded-full transition-colors" href="/pgrs">Grievances</a>
+                <a className="text-xs font-semibold px-3 py-2 text-[#002147] hover:text-[#D97706] hover:bg-[#FEF9C3] rounded-full transition-colors" href="/drda/pgrs">Grievances</a>
               </li>
               <li>
-                <a className="text-xs font-semibold px-3 py-2 text-[#002147] hover:text-[#D97706] hover:bg-[#FEF9C3] rounded-full transition-colors" href="/dashboard">Dashboard</a>
+                <a className="text-xs font-semibold px-3 py-2 text-[#002147] hover:text-[#D97706] hover:bg-[#FEF9C3] rounded-full transition-colors" href="/drda/dashboard">Dashboard</a>
               </li>
             </ul>
 
-            <a className="flex items-center gap-1.5 bg-[#FFD22C] hover:bg-[#F59E0B] text-[#0F172A] font-extrabold text-xs px-3.5 py-1.5 rounded-full shadow-sm transition-colors" href="/mart">
+            <a className="flex items-center gap-1.5 bg-[#FFD22C] hover:bg-[#F59E0B] text-[#0F172A] font-extrabold text-xs px-3.5 py-1.5 rounded-full shadow-sm transition-colors" href="/drda/mart">
               <svg xmlns="http://www.w3.org/2000/svg" width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M16 10a4 4 0 0 1-8 0"/><path d="M3.1 6h17.8"/><path d="M3.4 5.5a2 2 0 0 0-.4 1.2V20a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V6.7a2 2 0 0 0-.4-1.2l-2-2.7A2 2 0 0 0 17 2H7a2 2 0 0 0-1.6.8z"/></svg>
               <span>Manyam Mart</span>
               <span className="bg-[#002147] text-[#FFD22C] text-[9px] font-bold px-1.5 py-0.5 rounded-full">NEW</span>
@@ -177,7 +177,7 @@ export default function Home() {
 
             {/* Temple Heritage Photo - Spreading smoothly across the right side with crisp clarity */}
             <img
-              src="/images/hero-temple.jpg"
+              src="/drda/images/hero-temple.jpg"
               alt="Vizianagaram Historic Stone Chariot Heritage"
               className="w-full h-full object-cover object-[center_30%] sm:object-[45%_30%] lg:object-[48%_25%] opacity-95 lg:opacity-100 filter contrast-105 saturate-110 drop-shadow-sm transition-all duration-700 ease-out"
             />
@@ -215,12 +215,12 @@ export default function Home() {
 
                 <div className="flex flex-wrap items-center gap-3">
                   {/* Golden Yellow Explore Citizen Services Button */}
-                  <a href="/citizen-services" className="inline-flex items-center gap-2 bg-[#FFD22C] hover:bg-[#F59E0B] text-[#0F172A] font-extrabold px-6 py-3.5 rounded-full text-sm shadow-md hover:shadow-lg hover:-translate-y-0.5 transition-all">
+                  <a href="/drda/citizen-services" className="inline-flex items-center gap-2 bg-[#FFD22C] hover:bg-[#F59E0B] text-[#0F172A] font-extrabold px-6 py-3.5 rounded-full text-sm shadow-md hover:shadow-lg hover:-translate-y-0.5 transition-all">
                     <span>Explore Citizen Services</span>
                     <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg>
                   </a>
                   {/* White / Navy Share Your Concern Button */}
-                  <a href="/pgrs" className="inline-flex items-center gap-2 bg-white hover:bg-slate-50 text-[#002147] font-bold px-6 py-3.5 rounded-full text-sm border-2 border-[#002147]/20 shadow-sm hover:shadow transition-all">
+                  <a href="/drda/pgrs" className="inline-flex items-center gap-2 bg-white hover:bg-slate-50 text-[#002147] font-bold px-6 py-3.5 rounded-full text-sm border-2 border-[#002147]/20 shadow-sm hover:shadow transition-all">
                     <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="text-[#002147]"><path d="M22 17a2 2 0 0 1-2 2H6.828a2 2 0 0 0-1.414.586l-2.202 2.202A.71.71 0 0 1 2 21.286V5a2 2 0 0 1 2-2h16a2 2 0 0 1 2 2z"/></svg>
                     <span>Share Your Concern</span>
                   </a>
@@ -235,7 +235,7 @@ export default function Home() {
                       <div className="w-2.5 h-2.5 rounded-full bg-[#0284C7] animate-pulse"></div>
                       <h3 className="font-extrabold text-[#002147] text-sm sm:text-base">A Connected District</h3>
                     </div>
-                    <a href="/about/district" className="text-xs font-bold text-[#0284C7] hover:underline flex items-center gap-1">
+                    <a href="/drda/about/district" className="text-xs font-bold text-[#0284C7] hover:underline flex items-center gap-1">
                       View More →
                     </a>
                   </div>
@@ -288,7 +288,7 @@ export default function Home() {
                       <a href="https://meeseva.ap.gov.in" target="_blank" rel="noopener noreferrer" className="bg-white hover:bg-gray-50 text-[#002147] border border-gray-200 text-xs font-semibold px-3 py-1.5 rounded-lg transition-colors shadow-sm">
                         MeeSeva Services
                       </a>
-                      <a href="/schemes" className="bg-[#FFD22C] hover:bg-[#F59E0B] text-[#0F172A] text-xs font-bold px-3 py-1.5 rounded-lg shadow-sm transition-colors">
+                      <a href="/drda/schemes" className="bg-[#FFD22C] hover:bg-[#F59E0B] text-[#0F172A] text-xs font-bold px-3 py-1.5 rounded-lg shadow-sm transition-colors">
                         Apply For Certificates
                       </a>
                     </div>
@@ -317,7 +317,7 @@ export default function Home() {
                 <span>IVRS Helpline 1902 operational 24/7 for citizen scheme assistance</span>
               </div>
             </div>
-            <a className="hidden sm:flex items-center gap-1 text-[#D97706] hover:text-[#002147] px-4 font-bold text-xs flex-shrink-0 transition-colors" href="/media-coverage">
+            <a className="hidden sm:flex items-center gap-1 text-[#D97706] hover:text-[#002147] px-4 font-bold text-xs flex-shrink-0 transition-colors" href="/drda/media-coverage">
               More Updates →
             </a>
           </div>
@@ -345,11 +345,11 @@ export default function Home() {
                 {/* Leader 1 */}
                 <div className="bg-white rounded-2xl p-4 text-center border border-[#E2E8F0] shadow-sm hover:shadow-lg transition-all flex flex-col items-center">
                   <div className="w-18 h-18 sm:w-20 sm:h-20 rounded-full overflow-hidden bg-[#FEF9C3] p-1 border-2 border-white shadow-md mb-3">
-                    <img src="/leaders/apcm.png" alt="Sri Nara Chandrababu Naidu" className="w-full h-full object-cover rounded-full" />
+                    <img src="/drda/leaders/apcm.png" alt="Sri Nara Chandrababu Naidu" className="w-full h-full object-cover rounded-full" />
                   </div>
                   <h3 className="font-bold text-[#002147] text-xs sm:text-sm leading-tight mb-1">Sri Nara Chandrababu Naidu</h3>
                   <p className="text-[#64748B] text-[10px] sm:text-xs leading-tight mb-3 flex-1">Hon&#x27;ble Chief Minister, Andhra Pradesh</p>
-                  <a href="/about/structure" className="bg-[#FEF9C3] text-[#002147] hover:bg-[#FFD22C] hover:text-[#0F172A] text-[11px] font-bold px-3 py-1 rounded-full border border-[#FDE68A] transition-colors">
+                  <a href="/drda/about/structure" className="bg-[#FEF9C3] text-[#002147] hover:bg-[#FFD22C] hover:text-[#0F172A] text-[11px] font-bold px-3 py-1 rounded-full border border-[#FDE68A] transition-colors">
                     Know More →
                   </a>
                 </div>
@@ -357,11 +357,11 @@ export default function Home() {
                 {/* Leader 2 */}
                 <div className="bg-white rounded-2xl p-4 text-center border border-[#E2E8F0] shadow-sm hover:shadow-lg transition-all flex flex-col items-center">
                   <div className="w-18 h-18 sm:w-20 sm:h-20 rounded-full overflow-hidden bg-[#FEF9C3] p-1 border-2 border-white shadow-md mb-3">
-                    <img src="/leaders/serpminister.jpg" alt="Sri Kondapalli Srinivas" className="w-full h-full object-cover rounded-full" />
+                    <img src="/drda/leaders/serpminister.jpg" alt="Sri Kondapalli Srinivas" className="w-full h-full object-cover rounded-full" />
                   </div>
                   <h3 className="font-bold text-[#002147] text-xs sm:text-sm leading-tight mb-1">Sri Kondapalli Srinivas</h3>
                   <p className="text-[#64748B] text-[10px] sm:text-xs leading-tight mb-3 flex-1">Hon&#x27;ble Minister, MSMEs &amp; SERP, AP</p>
-                  <a href="/about/structure" className="bg-[#FEF9C3] text-[#002147] hover:bg-[#FFD22C] hover:text-[#0F172A] text-[11px] font-bold px-3 py-1 rounded-full border border-[#FDE68A] transition-colors">
+                  <a href="/drda/about/structure" className="bg-[#FEF9C3] text-[#002147] hover:bg-[#FFD22C] hover:text-[#0F172A] text-[11px] font-bold px-3 py-1 rounded-full border border-[#FDE68A] transition-colors">
                     Know More →
                   </a>
                 </div>
@@ -369,11 +369,11 @@ export default function Home() {
                 {/* Leader 3 */}
                 <div className="bg-white rounded-2xl p-4 text-center border border-[#E2E8F0] shadow-sm hover:shadow-lg transition-all flex flex-col items-center">
                   <div className="w-18 h-18 sm:w-20 sm:h-20 rounded-full overflow-hidden bg-[#FEF9C3] p-1 border-2 border-white shadow-md mb-3">
-                    <img src="/leaders/serpceo.webp" alt="Smt. V. Karuna, IAS" className="w-full h-full object-cover rounded-full" />
+                    <img src="/drda/leaders/serpceo.webp" alt="Smt. V. Karuna, IAS" className="w-full h-full object-cover rounded-full" />
                   </div>
                   <h3 className="font-bold text-[#002147] text-xs sm:text-sm leading-tight mb-1">Smt. V. Karuna, IAS</h3>
                   <p className="text-[#64748B] text-[10px] sm:text-xs leading-tight mb-3 flex-1">Chief Executive Officer, SERP AP</p>
-                  <a href="/about/structure" className="bg-[#FEF9C3] text-[#002147] hover:bg-[#FFD22C] hover:text-[#0F172A] text-[11px] font-bold px-3 py-1 rounded-full border border-[#FDE68A] transition-colors">
+                  <a href="/drda/about/structure" className="bg-[#FEF9C3] text-[#002147] hover:bg-[#FFD22C] hover:text-[#0F172A] text-[11px] font-bold px-3 py-1 rounded-full border border-[#FDE68A] transition-colors">
                     Know More →
                   </a>
                 </div>
@@ -381,11 +381,11 @@ export default function Home() {
                 {/* Leader 4 */}
                 <div className="bg-white rounded-2xl p-4 text-center border border-[#E2E8F0] shadow-sm hover:shadow-lg transition-all flex flex-col items-center">
                   <div className="w-18 h-18 sm:w-20 sm:h-20 rounded-full overflow-hidden bg-[#FEF9C3] p-1 border-2 border-white shadow-md mb-3">
-                    <img src="/leaders/collector.jpg" alt="Sri S. Ram Sundar Reddy, I.A.S." className="w-full h-full object-cover rounded-full" />
+                    <img src="/drda/leaders/collector.jpg" alt="Sri S. Ram Sundar Reddy, I.A.S." className="w-full h-full object-cover rounded-full" />
                   </div>
                   <h3 className="font-bold text-[#002147] text-xs sm:text-sm leading-tight mb-1">Sri S. Ram Sundar Reddy, I.A.S.</h3>
                   <p className="text-[#64748B] text-[10px] sm:text-xs leading-tight mb-3 flex-1">District Collector &amp; Magistrate</p>
-                  <a href="/about/whos-who" className="bg-[#FEF9C3] text-[#002147] hover:bg-[#FFD22C] hover:text-[#0F172A] text-[11px] font-bold px-3 py-1 rounded-full border border-[#FDE68A] transition-colors">
+                  <a href="/drda/about/whos-who" className="bg-[#FEF9C3] text-[#002147] hover:bg-[#FFD22C] hover:text-[#0F172A] text-[11px] font-bold px-3 py-1 rounded-full border border-[#FDE68A] transition-colors">
                     Know More →
                   </a>
                 </div>
@@ -393,11 +393,11 @@ export default function Home() {
                 {/* Leader 5 */}
                 <div className="bg-white rounded-2xl p-4 text-center border border-[#E2E8F0] shadow-sm hover:shadow-lg transition-all flex flex-col items-center col-span-2 sm:col-span-1">
                   <div className="w-18 h-18 sm:w-20 sm:h-20 rounded-full overflow-hidden bg-[#FEF9C3] p-1 border-2 border-white shadow-md mb-3">
-                    <img src="/leaders/project-director.jpg" alt="Smt. Ch. Prabhavathi" className="w-full h-full object-cover rounded-full" />
+                    <img src="/drda/leaders/project-director.jpg" alt="Smt. Ch. Prabhavathi" className="w-full h-full object-cover rounded-full" />
                   </div>
                   <h3 className="font-bold text-[#002147] text-xs sm:text-sm leading-tight mb-1">Smt. Ch. Prabhavathi</h3>
                   <p className="text-[#64748B] text-[10px] sm:text-xs leading-tight mb-3 flex-1">Project Director, DRDA Vizianagaram</p>
-                  <a href="/about/whos-who" className="bg-[#FEF9C3] text-[#002147] hover:bg-[#FFD22C] hover:text-[#0F172A] text-[11px] font-bold px-3 py-1 rounded-full border border-[#FDE68A] transition-colors">
+                  <a href="/drda/about/whos-who" className="bg-[#FEF9C3] text-[#002147] hover:bg-[#FFD22C] hover:text-[#0F172A] text-[11px] font-bold px-3 py-1 rounded-full border border-[#FDE68A] transition-colors">
                     Know More →
                   </a>
                 </div>
@@ -421,7 +421,7 @@ export default function Home() {
                 <h2 className="text-2xl sm:text-3xl font-black text-[#002147]">District at a glance</h2>
                 <p className="text-xs sm:text-sm text-[#64748B] mt-0.5">A quick view of Vizianagaram&#x27;s population, administration and infrastructure.</p>
               </div>
-              <a href="/dashboard" className="border border-[#FDE68A] hover:bg-[#FEF9C3] text-[#002147] hover:text-[#D97706] font-bold text-xs px-4 py-2 rounded-full transition-colors flex items-center gap-1 shadow-sm">
+              <a href="/drda/dashboard" className="border border-[#FDE68A] hover:bg-[#FEF9C3] text-[#002147] hover:text-[#D97706] font-bold text-xs px-4 py-2 rounded-full transition-colors flex items-center gap-1 shadow-sm">
                 <span>View Detailed Statistics</span>
                 <span>→</span>
               </a>
@@ -507,7 +507,7 @@ export default function Home() {
                   <div className="font-black text-[#002147] text-base">777</div>
                   <div className="text-[10px] text-[#64748B]">Villages</div>
                 </div>
-                <a href="/about/district" className="bg-[#FFD22C] hover:bg-[#F59E0B] text-[#0F172A] font-extrabold text-xs px-5 py-2.5 rounded-full shadow-sm transition-colors whitespace-nowrap">
+                <a href="/drda/about/district" className="bg-[#FFD22C] hover:bg-[#F59E0B] text-[#0F172A] font-extrabold text-xs px-5 py-2.5 rounded-full shadow-sm transition-colors whitespace-nowrap">
                   Explore More →
                 </a>
               </div>
@@ -525,7 +525,7 @@ export default function Home() {
                 <h2 className="text-2xl sm:text-3xl font-black text-[#002147]">Progress you can understand</h2>
                 <p className="text-xs sm:text-sm text-[#64748B] mt-0.5">Real progress. Visible impact. Track how Vizianagaram is moving forward.</p>
               </div>
-              <a href="/dashboard" className="border border-[#FDE68A] hover:bg-[#FEF9C3] text-[#002147] hover:text-[#D97706] font-bold text-xs px-4 py-2 rounded-full transition-colors shadow-sm">
+              <a href="/drda/dashboard" className="border border-[#FDE68A] hover:bg-[#FEF9C3] text-[#002147] hover:text-[#D97706] font-bold text-xs px-4 py-2 rounded-full transition-colors shadow-sm">
                 Full Dashboard →
               </a>
             </div>
@@ -602,7 +602,7 @@ export default function Home() {
                 <h2 className="text-2xl sm:text-3xl font-black text-[#002147]">Everything you need to take the first step</h2>
                 <p className="text-xs sm:text-sm text-[#64748B] mt-0.5">Access key citizen services, submit applications and track your requests — all in one place.</p>
               </div>
-              <a href="/citizen-services" className="text-[#D97706] font-bold text-xs hover:underline flex items-center gap-1">
+              <a href="/drda/citizen-services" className="text-[#D97706] font-bold text-xs hover:underline flex items-center gap-1">
                 <span>View All Services</span>
                 <span>→</span>
               </a>
@@ -612,12 +612,12 @@ export default function Home() {
               {/* Service 1: Public Grievance */}
               <div className="bg-white rounded-2xl border border-[#E2E8F0] overflow-hidden shadow-sm hover:shadow-md transition-all">
                 <div className="h-28 bg-slate-100 overflow-hidden relative">
-                  <img src="/images/services/service1.jpg" alt="Public Grievance" className="w-full h-full object-cover" />
+                  <img src="/drda/images/services/service1.jpg" alt="Public Grievance" className="w-full h-full object-cover" />
                 </div>
                 <div className="p-3.5">
                   <h3 className="font-bold text-[#002147] text-xs sm:text-sm mb-1">Public Grievance</h3>
                   <p className="text-[11px] text-[#64748B] mb-3 leading-relaxed">Register and track your grievances online.</p>
-                  <a href="/pgrs" className="text-[#D97706] hover:text-[#002147] font-bold text-[11px] flex items-center gap-1">
+                  <a href="/drda/pgrs" className="text-[#D97706] hover:text-[#002147] font-bold text-[11px] flex items-center gap-1">
                     Open service →
                   </a>
                 </div>
@@ -626,12 +626,12 @@ export default function Home() {
               {/* Service 2: Government Schemes */}
               <div className="bg-white rounded-2xl border border-[#E2E8F0] overflow-hidden shadow-sm hover:shadow-md transition-all">
                 <div className="h-28 bg-slate-100 overflow-hidden relative">
-                  <img src="/images/services/service2.jpg" alt="Government Schemes" className="w-full h-full object-cover" />
+                  <img src="/drda/images/services/service2.jpg" alt="Government Schemes" className="w-full h-full object-cover" />
                 </div>
                 <div className="p-3.5">
                   <h3 className="font-bold text-[#002147] text-xs sm:text-sm mb-1">Government Schemes</h3>
                   <p className="text-[11px] text-[#64748B] mb-3 leading-relaxed">Explore welfare schemes and apply online.</p>
-                  <a href="/schemes" className="text-[#D97706] hover:text-[#002147] font-bold text-[11px] flex items-center gap-1">
+                  <a href="/drda/schemes" className="text-[#D97706] hover:text-[#002147] font-bold text-[11px] flex items-center gap-1">
                     Open service →
                   </a>
                 </div>
@@ -640,12 +640,12 @@ export default function Home() {
               {/* Service 3: Hospitals */}
               <div className="bg-white rounded-2xl border border-[#E2E8F0] overflow-hidden shadow-sm hover:shadow-md transition-all">
                 <div className="h-28 bg-slate-100 overflow-hidden relative">
-                  <img src="/images/services/service3.jpg" alt="Hospitals" className="w-full h-full object-cover" />
+                  <img src="/drda/images/services/service3.jpg" alt="Hospitals" className="w-full h-full object-cover" />
                 </div>
                 <div className="p-3.5">
                   <h3 className="font-bold text-[#002147] text-xs sm:text-sm mb-1">Hospitals</h3>
                   <p className="text-[11px] text-[#64748B] mb-3 leading-relaxed">Find government hospitals and health services.</p>
-                  <a href="/citizen-services" className="text-[#D97706] hover:text-[#002147] font-bold text-[11px] flex items-center gap-1">
+                  <a href="/drda/citizen-services" className="text-[#D97706] hover:text-[#002147] font-bold text-[11px] flex items-center gap-1">
                     Open service →
                   </a>
                 </div>
@@ -654,12 +654,12 @@ export default function Home() {
               {/* Service 4: Schools & Colleges */}
               <div className="bg-white rounded-2xl border border-[#E2E8F0] overflow-hidden shadow-sm hover:shadow-md transition-all">
                 <div className="h-28 bg-slate-100 overflow-hidden relative">
-                  <img src="/images/services/service4.jpg" alt="Schools & Colleges" className="w-full h-full object-cover" />
+                  <img src="/drda/images/services/service4.jpg" alt="Schools & Colleges" className="w-full h-full object-cover" />
                 </div>
                 <div className="p-3.5">
                   <h3 className="font-bold text-[#002147] text-xs sm:text-sm mb-1">Schools &amp; Colleges</h3>
                   <p className="text-[11px] text-[#64748B] mb-3 leading-relaxed">Find educational institutions near you.</p>
-                  <a href="/citizen-services" className="text-[#D97706] hover:text-[#002147] font-bold text-[11px] flex items-center gap-1">
+                  <a href="/drda/citizen-services" className="text-[#D97706] hover:text-[#002147] font-bold text-[11px] flex items-center gap-1">
                     Open service →
                   </a>
                 </div>
@@ -668,12 +668,12 @@ export default function Home() {
               {/* Service 5: Tourism */}
               <div className="bg-white rounded-2xl border border-[#E2E8F0] overflow-hidden shadow-sm hover:shadow-md transition-all col-span-2 sm:col-span-1">
                 <div className="h-28 bg-slate-100 overflow-hidden relative">
-                  <img src="/images/services/service5.jpg" alt="Tourism" className="w-full h-full object-cover" />
+                  <img src="/drda/images/services/service5.jpg" alt="Tourism" className="w-full h-full object-cover" />
                 </div>
                 <div className="p-3.5">
                   <h3 className="font-bold text-[#002147] text-xs sm:text-sm mb-1">Tourism</h3>
                   <p className="text-[11px] text-[#64748B] mb-3 leading-relaxed">Explore scenic places in Vizianagaram.</p>
-                  <a href="/citizen-services" className="text-[#D97706] hover:text-[#002147] font-bold text-[11px] flex items-center gap-1">
+                  <a href="/drda/citizen-services" className="text-[#D97706] hover:text-[#002147] font-bold text-[11px] flex items-center gap-1">
                     Open service →
                   </a>
                 </div>
@@ -694,7 +694,7 @@ export default function Home() {
 
               <div className="flex items-center gap-2">
                 {/* White button */}
-                <a href="/citizen-services" className="bg-white hover:bg-gray-50 text-[#002147] font-bold text-xs px-4 py-2 rounded-full border border-gray-200 shadow-sm transition-colors">
+                <a href="/drda/citizen-services" className="bg-white hover:bg-gray-50 text-[#002147] font-bold text-xs px-4 py-2 rounded-full border border-gray-200 shadow-sm transition-colors">
                   Get Services →
                 </a>
                 {/* Deep Navy button */}
@@ -715,7 +715,7 @@ export default function Home() {
                 <h2 className="text-2xl sm:text-3xl font-black text-[#002147]">Real people. Practical progress.</h2>
                 <p className="text-xs sm:text-sm text-[#64748B] mt-0.5">Stories from our communities that are building a stronger Vizianagaram.</p>
               </div>
-              <a href="/success-stories" className="text-[#D97706] font-bold text-xs hover:underline flex items-center gap-1">
+              <a href="/drda/success-stories" className="text-[#D97706] font-bold text-xs hover:underline flex items-center gap-1">
                 <span>View All Stories</span>
                 <span>→</span>
               </a>
@@ -725,12 +725,12 @@ export default function Home() {
               {/* Story 1 */}
               <div className="bg-white rounded-2xl overflow-hidden border border-[#E2E8F0] shadow-sm hover:shadow-md transition-all">
                 <div className="h-44 bg-slate-100 overflow-hidden">
-                  <img src="/images/services/service6.jpg" alt="Santhi Mahila Collective" className="w-full h-full object-cover" />
+                  <img src="/drda/images/services/service6.jpg" alt="Santhi Mahila Collective" className="w-full h-full object-cover" />
                 </div>
                 <div className="p-5">
                   <h3 className="font-bold text-[#002147] text-base mb-1">Santhi &amp; Mahila Collective</h3>
                   <p className="text-xs text-[#64748B] mb-4 leading-relaxed">A women&#x27;s collective in Vizianagaram empowering rural women through dairy farming and micro-enterprises.</p>
-                  <a href="/success-stories" className="text-[#D97706] hover:text-[#002147] font-bold text-xs flex items-center gap-1">
+                  <a href="/drda/success-stories" className="text-[#D97706] hover:text-[#002147] font-bold text-xs flex items-center gap-1">
                     Read more →
                   </a>
                 </div>
@@ -739,12 +739,12 @@ export default function Home() {
               {/* Story 2 */}
               <div className="bg-white rounded-2xl overflow-hidden border border-[#E2E8F0] shadow-sm hover:shadow-md transition-all">
                 <div className="h-44 bg-slate-100 overflow-hidden">
-                  <img src="/images/schemes/scheme7.jpg" alt="Sai Farmer Producer Group" className="w-full h-full object-cover" />
+                  <img src="/drda/images/schemes/scheme7.jpg" alt="Sai Farmer Producer Group" className="w-full h-full object-cover" />
                 </div>
                 <div className="p-5">
                   <h3 className="font-bold text-[#002147] text-base mb-1">Sai Farmer Producer Group</h3>
                   <p className="text-xs text-[#64748B] mb-4 leading-relaxed">Supporting farmers for better yields and fair prices across cashew and millet crops.</p>
-                  <a href="/success-stories" className="text-[#D97706] hover:text-[#002147] font-bold text-xs flex items-center gap-1">
+                  <a href="/drda/success-stories" className="text-[#D97706] hover:text-[#002147] font-bold text-xs flex items-center gap-1">
                     Read more →
                   </a>
                 </div>
@@ -753,12 +753,12 @@ export default function Home() {
               {/* Story 3 */}
               <div className="bg-white rounded-2xl overflow-hidden border border-[#E2E8F0] shadow-sm hover:shadow-md transition-all sm:col-span-2 lg:col-span-1">
                 <div className="h-44 bg-slate-100 overflow-hidden">
-                  <img src="/images/schemes/scheme8.jpg" alt="Naveen&#x27;s Youth Skills Centre" className="w-full h-full object-cover" />
+                  <img src="/drda/images/schemes/scheme8.jpg" alt="Naveen&#x27;s Youth Skills Centre" className="w-full h-full object-cover" />
                 </div>
                 <div className="p-5">
                   <h3 className="font-bold text-[#002147] text-base mb-1">Naveen&#x27;s Youth Skills Centre</h3>
                   <p className="text-xs text-[#64748B] mb-4 leading-relaxed">Building skills for a brighter future through technical training and entrepreneurship coaching.</p>
-                  <a href="/success-stories" className="text-[#D97706] hover:text-[#002147] font-bold text-xs flex items-center gap-1">
+                  <a href="/drda/success-stories" className="text-[#D97706] hover:text-[#002147] font-bold text-xs flex items-center gap-1">
                     Read more →
                   </a>
                 </div>
@@ -776,7 +776,7 @@ export default function Home() {
                 <h2 className="text-2xl sm:text-3xl font-black text-[#002147]">Value chains with a local future</h2>
                 <p className="text-xs sm:text-sm text-[#64748B] mt-0.5">Explore support activities for families, entrepreneurs, traders and young people.</p>
               </div>
-              <a href="/schemes" className="text-[#D97706] font-bold text-xs hover:underline flex items-center gap-1">
+              <a href="/drda/schemes" className="text-[#D97706] font-bold text-xs hover:underline flex items-center gap-1">
                 <span>View All Schemes</span>
                 <span>→</span>
               </a>
@@ -785,49 +785,49 @@ export default function Home() {
             <div className="grid grid-cols-2 lg:grid-cols-4 gap-4">
               <div className="bg-white rounded-2xl overflow-hidden border border-[#E2E8F0] shadow-sm hover:shadow-md transition-all">
                 <div className="h-32 bg-slate-100 overflow-hidden">
-                  <img src="/images/schemes/scheme1.jpg" alt="Women Entrepreneurship" className="w-full h-full object-cover" />
+                  <img src="/drda/images/schemes/scheme1.jpg" alt="Women Entrepreneurship" className="w-full h-full object-cover" />
                 </div>
                 <div className="p-4">
                   <h3 className="font-bold text-[#002147] text-xs sm:text-sm mb-1">Women Entrepreneurship</h3>
                   <div className="text-xs font-black text-[#D97706]">2,050 units</div>
                   <p className="text-[11px] text-[#64748B] mt-0.5 mb-3">Self Help Groups</p>
-                  <a href="/success-stories" className="text-[#D97706] hover:text-[#002147] font-bold text-[11px]">Read details →</a>
+                  <a href="/drda/success-stories" className="text-[#D97706] hover:text-[#002147] font-bold text-[11px]">Read details →</a>
                 </div>
               </div>
 
               <div className="bg-white rounded-2xl overflow-hidden border border-[#E2E8F0] shadow-sm hover:shadow-md transition-all">
                 <div className="h-32 bg-slate-100 overflow-hidden">
-                  <img src="/images/schemes/scheme2.jpg" alt="Skill Development" className="w-full h-full object-cover" />
+                  <img src="/drda/images/schemes/scheme2.jpg" alt="Skill Development" className="w-full h-full object-cover" />
                 </div>
                 <div className="p-4">
                   <h3 className="font-bold text-[#002147] text-xs sm:text-sm mb-1">Skill Development</h3>
                   <div className="text-xs font-black text-[#0284C7]">3,920 learners</div>
                   <p className="text-[11px] text-[#64748B] mt-0.5 mb-3">Trained under programs</p>
-                  <a href="/events" className="text-[#D97706] hover:text-[#002147] font-bold text-[11px]">Read details →</a>
+                  <a href="/drda/events" className="text-[#D97706] hover:text-[#002147] font-bold text-[11px]">Read details →</a>
                 </div>
               </div>
 
               <div className="bg-white rounded-2xl overflow-hidden border border-[#E2E8F0] shadow-sm hover:shadow-md transition-all">
                 <div className="h-32 bg-slate-100 overflow-hidden">
-                  <img src="/images/schemes/scheme3.jpg" alt="Farmer Support" className="w-full h-full object-cover" />
+                  <img src="/drda/images/schemes/scheme3.jpg" alt="Farmer Support" className="w-full h-full object-cover" />
                 </div>
                 <div className="p-4">
                   <h3 className="font-bold text-[#002147] text-xs sm:text-sm mb-1">Farmer Support</h3>
                   <div className="text-xs font-black text-[#EAB308]">820 farmers</div>
                   <p className="text-[11px] text-[#64748B] mt-0.5 mb-3">Agricultural development</p>
-                  <a href="/fpo" className="text-[#D97706] hover:text-[#002147] font-bold text-[11px]">Read details →</a>
+                  <a href="/drda/fpo" className="text-[#D97706] hover:text-[#002147] font-bold text-[11px]">Read details →</a>
                 </div>
               </div>
 
               <div className="bg-white rounded-2xl overflow-hidden border border-[#E2E8F0] shadow-sm hover:shadow-md transition-all">
                 <div className="h-32 bg-slate-100 overflow-hidden">
-                  <img src="/images/schemes/scheme4.jpg" alt="Health Services" className="w-full h-full object-cover" />
+                  <img src="/drda/images/schemes/scheme4.jpg" alt="Health Services" className="w-full h-full object-cover" />
                 </div>
                 <div className="p-4">
                   <h3 className="font-bold text-[#002147] text-xs sm:text-sm mb-1">Health Services</h3>
                   <div className="text-xs font-black text-[#1D4ED8]">95% coverage</div>
                   <p className="text-[11px] text-[#64748B] mt-0.5 mb-3">Primary health initiatives</p>
-                  <a href="/citizen-services" className="text-[#D97706] hover:text-[#002147] font-bold text-[11px]">Read details →</a>
+                  <a href="/drda/citizen-services" className="text-[#D97706] hover:text-[#002147] font-bold text-[11px]">Read details →</a>
                 </div>
               </div>
             </div>
@@ -866,7 +866,7 @@ export default function Home() {
                       </div>
                     </div>
                     {/* Golden Yellow Learn More Button */}
-                    <a href="/citizen-services" className="bg-[#FFD22C] hover:bg-[#F59E0B] text-[#0F172A] font-extrabold text-xs px-6 py-2.5 rounded-full shadow transition-colors inline-block w-full">
+                    <a href="/drda/citizen-services" className="bg-[#FFD22C] hover:bg-[#F59E0B] text-[#0F172A] font-extrabold text-xs px-6 py-2.5 rounded-full shadow transition-colors inline-block w-full">
                       Learn More →
                     </a>
                   </div>
@@ -883,19 +883,19 @@ export default function Home() {
             <p className="text-xs text-[#64748B] mb-6">Quick links to key services, schemes and resources to help you move forward.</p>
 
             <div className="flex flex-wrap items-center justify-center gap-3">
-              <a href="/citizen-services" className="bg-white border border-[#FDE68A] hover:border-[#F59E0B] hover:bg-[#FEF9C3] text-[#002147] font-bold text-xs px-5 py-2.5 rounded-full transition-all shadow-sm">
+              <a href="/drda/citizen-services" className="bg-white border border-[#FDE68A] hover:border-[#F59E0B] hover:bg-[#FEF9C3] text-[#002147] font-bold text-xs px-5 py-2.5 rounded-full transition-all shadow-sm">
                 Citizen Services →
               </a>
-              <a href="/schemes" className="bg-white border border-[#FDE68A] hover:border-[#F59E0B] hover:bg-[#FEF9C3] text-[#002147] font-bold text-xs px-5 py-2.5 rounded-full transition-all shadow-sm">
+              <a href="/drda/schemes" className="bg-white border border-[#FDE68A] hover:border-[#F59E0B] hover:bg-[#FEF9C3] text-[#002147] font-bold text-xs px-5 py-2.5 rounded-full transition-all shadow-sm">
                 Schemes →
               </a>
-              <a href="/about/structure" className="bg-white border border-[#FDE68A] hover:border-[#F59E0B] hover:bg-[#FEF9C3] text-[#002147] font-bold text-xs px-5 py-2.5 rounded-full transition-all shadow-sm">
+              <a href="/drda/about/structure" className="bg-white border border-[#FDE68A] hover:border-[#F59E0B] hover:bg-[#FEF9C3] text-[#002147] font-bold text-xs px-5 py-2.5 rounded-full transition-all shadow-sm">
                 Departments →
               </a>
-              <a href="/pgrs" className="bg-white border border-[#FDE68A] hover:border-[#F59E0B] hover:bg-[#FEF9C3] text-[#002147] font-bold text-xs px-5 py-2.5 rounded-full transition-all shadow-sm">
+              <a href="/drda/pgrs" className="bg-white border border-[#FDE68A] hover:border-[#F59E0B] hover:bg-[#FEF9C3] text-[#002147] font-bold text-xs px-5 py-2.5 rounded-full transition-all shadow-sm">
                 Grievances →
               </a>
-              <a href="/about/whos-who" className="bg-white border border-[#FDE68A] hover:border-[#F59E0B] hover:bg-[#FEF9C3] text-[#002147] font-bold text-xs px-5 py-2.5 rounded-full transition-all shadow-sm">
+              <a href="/drda/about/whos-who" className="bg-white border border-[#FDE68A] hover:border-[#F59E0B] hover:bg-[#FEF9C3] text-[#002147] font-bold text-xs px-5 py-2.5 rounded-full transition-all shadow-sm">
                 Contact Us →
               </a>
             </div>
@@ -909,7 +909,7 @@ export default function Home() {
           <div>
             <div className="flex items-center gap-3 mb-4">
               <div className="w-12 h-12 rounded-full bg-white overflow-hidden flex-shrink-0 shadow-lg border-2 border-white/20">
-                <img alt="Government of Andhra Pradesh Emblem" width="48" height="48" className="w-full h-full object-cover" src="/images/ap-emblem.jpg" />
+                <img alt="Government of Andhra Pradesh Emblem" width="48" height="48" className="w-full h-full object-cover" src="/drda/images/ap-emblem.jpg" />
               </div>
               <div>
                 <div className="text-gray-400 text-[10px] leading-tight">Government of Andhra Pradesh</div>
@@ -947,24 +947,24 @@ export default function Home() {
           <div>
             <h3 className="text-white text-xs font-bold uppercase tracking-widest mb-4 border-b border-gray-700/50 pb-2">Quick Links</h3>
             <ul className="space-y-2 text-xs">
-              <li><Link className="hover:text-[#FFD22C] transition-colors flex items-center gap-1.5" href="/"><span className="text-[#FFD22C]">›</span> Home</Link></li>
-              <li><a className="hover:text-[#FFD22C] transition-colors flex items-center gap-1.5" href="/about/district"><span className="text-[#FFD22C]">›</span> About District</a></li>
-              <li><a className="hover:text-[#FFD22C] transition-colors flex items-center gap-1.5" href="/citizen-services"><span className="text-[#FFD22C]">›</span> Citizen Services</a></li>
-              <li><a className="hover:text-[#FFD22C] transition-colors flex items-center gap-1.5" href="/schemes"><span className="text-[#FFD22C]">›</span> Schemes</a></li>
-              <li><a className="hover:text-[#FFD22C] transition-colors flex items-center gap-1.5" href="/knowledge-center"><span className="text-[#FFD22C]">›</span> Downloads</a></li>
-              <li><a className="hover:text-[#FFD22C] transition-colors flex items-center gap-1.5" href="/media-coverage"><span className="text-[#FFD22C]">›</span> Media</a></li>
-              <li><a className="hover:text-[#FFD22C] transition-colors flex items-center gap-1.5" href="/about/whos-who"><span className="text-[#FFD22C]">›</span> Contact Us</a></li>
+              <li><Link className="hover:text-[#FFD22C] transition-colors flex items-center gap-1.5" href="/drda/"><span className="text-[#FFD22C]">›</span> Home</Link></li>
+              <li><a className="hover:text-[#FFD22C] transition-colors flex items-center gap-1.5" href="/drda/about/district"><span className="text-[#FFD22C]">›</span> About District</a></li>
+              <li><a className="hover:text-[#FFD22C] transition-colors flex items-center gap-1.5" href="/drda/citizen-services"><span className="text-[#FFD22C]">›</span> Citizen Services</a></li>
+              <li><a className="hover:text-[#FFD22C] transition-colors flex items-center gap-1.5" href="/drda/schemes"><span className="text-[#FFD22C]">›</span> Schemes</a></li>
+              <li><a className="hover:text-[#FFD22C] transition-colors flex items-center gap-1.5" href="/drda/knowledge-center"><span className="text-[#FFD22C]">›</span> Downloads</a></li>
+              <li><a className="hover:text-[#FFD22C] transition-colors flex items-center gap-1.5" href="/drda/media-coverage"><span className="text-[#FFD22C]">›</span> Media</a></li>
+              <li><a className="hover:text-[#FFD22C] transition-colors flex items-center gap-1.5" href="/drda/about/whos-who"><span className="text-[#FFD22C]">›</span> Contact Us</a></li>
             </ul>
           </div>
 
           <div>
             <h3 className="text-white text-xs font-bold uppercase tracking-widest mb-4 border-b border-gray-700/50 pb-2">Citizen Services</h3>
             <ul className="space-y-2 text-xs">
-              <li><a className="hover:text-[#FFD22C] transition-colors flex items-center gap-1.5" href="/pgrs"><span className="text-[#FFD22C]">›</span> Grievance Redressal</a></li>
-              <li><a className="hover:text-[#FFD22C] transition-colors flex items-center gap-1.5" href="/citizen-services"><span className="text-[#FFD22C]">›</span> Public Services</a></li>
-              <li><a className="hover:text-[#FFD22C] transition-colors flex items-center gap-1.5" href="/ivrs"><span className="text-[#FFD22C]">›</span> RTI Services</a></li>
-              <li><a className="hover:text-[#FFD22C] transition-colors flex items-center gap-1.5" href="/events"><span className="text-[#FFD22C]">›</span> Tenders</a></li>
-              <li><a className="hover:text-[#FFD22C] transition-colors flex items-center gap-1.5" href="/media-coverage"><span className="text-[#FFD22C]">›</span> Notices</a></li>
+              <li><a className="hover:text-[#FFD22C] transition-colors flex items-center gap-1.5" href="/drda/pgrs"><span className="text-[#FFD22C]">›</span> Grievance Redressal</a></li>
+              <li><a className="hover:text-[#FFD22C] transition-colors flex items-center gap-1.5" href="/drda/citizen-services"><span className="text-[#FFD22C]">›</span> Public Services</a></li>
+              <li><a className="hover:text-[#FFD22C] transition-colors flex items-center gap-1.5" href="/drda/ivrs"><span className="text-[#FFD22C]">›</span> RTI Services</a></li>
+              <li><a className="hover:text-[#FFD22C] transition-colors flex items-center gap-1.5" href="/drda/events"><span className="text-[#FFD22C]">›</span> Tenders</a></li>
+              <li><a className="hover:text-[#FFD22C] transition-colors flex items-center gap-1.5" href="/drda/media-coverage"><span className="text-[#FFD22C]">›</span> Notices</a></li>
               <li><a className="hover:text-[#FFD22C] transition-colors flex items-center gap-1.5" href="https://vizianagaram.ap.gov.in" target="_blank" rel="noopener noreferrer"><span className="text-[#FFD22C]">›</span> District Portal ↗</a></li>
             </ul>
           </div>
@@ -1001,11 +1001,11 @@ export default function Home() {
               © 2026 Vizianagaram District. All Rights Reserved.
             </div>
             <div className="flex items-center gap-4 text-xs">
-              <a href="/accessibility" className="hover:text-white transition-colors">Privacy Policy</a>
+              <a href="/drda/accessibility" className="hover:text-white transition-colors">Privacy Policy</a>
               <span>|</span>
-              <a href="/accessibility" className="hover:text-white transition-colors">Terms of Use</a>
+              <a href="/drda/accessibility" className="hover:text-white transition-colors">Terms of Use</a>
               <span>|</span>
-              <a href="/sitemap" className="hover:text-white transition-colors">Sitemap</a>
+              <a href="/drda/sitemap" className="hover:text-white transition-colors">Sitemap</a>
             </div>
             <div className="text-[#0284C7] font-semibold text-xs flex items-center gap-1.5">
               <span>Powered by</span>
