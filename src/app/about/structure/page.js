@@ -41,9 +41,9 @@ export default function AdministrativeStructure() {
         {/* 2. Main White Branding Bar */}
         <div className="bg-white text-[#002147] px-4 py-3 border-b border-[#E2E8F0]">
           <div className="max-w-7xl mx-auto flex items-center justify-between gap-4">
-            <Link className="flex items-center gap-3 min-w-0" href="/">
+            <Link className="flex items-center gap-3 min-w-0" href="/drda/">
               <div className="w-12 h-12 sm:w-14 sm:h-14 rounded-full bg-white overflow-hidden flex-shrink-0 shadow-md border-2 border-[#E2E8F0]">
-                <img alt="Government of Andhra Pradesh Emblem" width="56" height="56" className="w-full h-full object-cover" src="/images/ap-emblem.jpg" />
+                <img alt="Government of Andhra Pradesh Emblem" width="56" height="56" className="w-full h-full object-cover" src="/drda/images/ap-emblem.jpg" />
               </div>
               <div className="min-w-0">
                 <div className="text-[11px] sm:text-xs text-[#475569] font-medium leading-tight">Government of Andhra Pradesh</div>
@@ -58,7 +58,7 @@ export default function AdministrativeStructure() {
                 <span>Vizianagaram Maps</span>
                 <svg xmlns="http://www.w3.org/2000/svg" width="11" height="11" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="m6 9 6 6 6-6"/></svg>
               </a>
-              <a className="hidden md:flex items-center gap-1.5 bg-[#FFD22C] hover:bg-[#F59E0B] text-[#0F172A] font-extrabold text-xs px-3.5 py-2 rounded-full shadow-sm transition-colors" href="/mart">
+              <a className="hidden md:flex items-center gap-1.5 bg-[#FFD22C] hover:bg-[#F59E0B] text-[#0F172A] font-extrabold text-xs px-3.5 py-2 rounded-full shadow-sm transition-colors" href="/drda/mart">
                 <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M16 10a4 4 0 0 1-8 0"/><path d="M3.1 6h17.8"/><path d="M3.4 5.5a2 2 0 0 0-.4 1.2V20a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V6.7a2 2 0 0 0-.4-1.2l-2-2.7A2 2 0 0 0 17 2H7a2 2 0 0 0-1.6.8z"/></svg>
                 <span>Mart</span>
               </a>
@@ -71,80 +71,80 @@ export default function AdministrativeStructure() {
           <div className="max-w-7xl mx-auto px-4 flex items-center justify-between">
             <ul className="flex items-center gap-1 py-1">
               <li>
-                <Link className="text-xs font-semibold px-3 py-2 text-[#002147] hover:text-[#D97706] hover:bg-[#FEF9C3] rounded-full transition-colors inline-block" href="/">Home</Link>
+                <Link className="text-xs font-semibold px-3 py-2 text-[#002147] hover:text-[#D97706] hover:bg-[#FEF9C3] rounded-full transition-colors inline-block" href="/drda/">Home</Link>
               </li>
               {/* Active About Dropdown */}
               <li className="relative group">
-                <a className="flex items-center gap-1 bg-[#FFD22C] text-[#0F172A] font-extrabold text-xs px-4 py-1.5 rounded-full shadow-sm transition-colors" href="/about/drda">
+                <a className="flex items-center gap-1 bg-[#FFD22C] text-[#0F172A] font-extrabold text-xs px-4 py-1.5 rounded-full shadow-sm transition-colors" href="/drda/about/drda">
                   About
                   <svg xmlns="http://www.w3.org/2000/svg" width="10" height="10" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round"><path d="m6 9 6 6 6-6"/></svg>
                 </a>
                 <div className="absolute left-0 top-full pt-1 opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-200 z-50">
                   <div className="bg-white rounded-xl shadow-xl border border-gray-100 py-2 w-56 overflow-hidden">
-                    <a href="/about/drda" className="block px-4 py-2 text-xs font-semibold text-[#002147] hover:bg-[#FEFCE8] hover:text-[#D97706]">About DRDA</a>
-                    <a href="/about/district" className="block px-4 py-2 text-xs font-semibold text-[#002147] hover:bg-[#FEFCE8] hover:text-[#D97706]">District Profile</a>
-                    <a href="/about/structure" className="block px-4 py-2 text-xs font-bold text-[#002147] bg-[#FEF9C3] hover:text-[#D97706] border-l-4 border-[#002147]">Administrative Structure</a>
-                    <a href="/about/whos-who" className="block px-4 py-2 text-xs font-semibold text-[#002147] hover:bg-[#FEFCE8] hover:text-[#D97706]">Who&#x27;s Who</a>
+                    <a href="/drda/about/drda" className="block px-4 py-2 text-xs font-semibold text-[#002147] hover:bg-[#FEFCE8] hover:text-[#D97706]">About DRDA</a>
+                    <a href="/drda/about/district" className="block px-4 py-2 text-xs font-semibold text-[#002147] hover:bg-[#FEFCE8] hover:text-[#D97706]">District Profile</a>
+                    <a href="/drda/about/structure" className="block px-4 py-2 text-xs font-bold text-[#002147] bg-[#FEF9C3] hover:text-[#D97706] border-l-4 border-[#002147]">Administrative Structure</a>
+                    <a href="/drda/about/whos-who" className="block px-4 py-2 text-xs font-semibold text-[#002147] hover:bg-[#FEFCE8] hover:text-[#D97706]">Who&#x27;s Who</a>
                   </div>
                 </div>
               </li>
               <li className="relative group">
-                <a className="flex items-center gap-1 text-xs font-semibold px-3 py-2 text-[#002147] hover:text-[#D97706] hover:bg-[#FEF9C3] rounded-full transition-colors" href="/citizen-services">
+                <a className="flex items-center gap-1 text-xs font-semibold px-3 py-2 text-[#002147] hover:text-[#D97706] hover:bg-[#FEF9C3] rounded-full transition-colors" href="/drda/citizen-services">
                   Citizen Services
                   <svg xmlns="http://www.w3.org/2000/svg" width="10" height="10" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="m6 9 6 6 6-6"/></svg>
                 </a>
                 <div className="absolute left-0 top-full pt-1 opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-200 z-50">
                   <div className="bg-white rounded-xl shadow-xl border border-gray-100 py-2 w-56 overflow-hidden">
-                    <a href="/citizen-services" className="block px-4 py-2 text-xs font-bold text-[#002147] hover:bg-[#FEFCE8] hover:text-[#D97706] border-b border-gray-50">All Citizen Services</a>
-                    <a href="/schemes" className="block px-4 py-2 text-xs font-semibold text-[#002147] hover:bg-[#FEFCE8] hover:text-[#D97706]">Explore Schemes</a>
-                    <a href="/pgrs" className="block px-4 py-2 text-xs font-semibold text-[#002147] hover:bg-[#FEFCE8] hover:text-[#D97706]">Share Concern (PGRS)</a>
-                    <a href="/ivrs" className="block px-4 py-2 text-xs font-semibold text-[#002147] hover:bg-[#FEFCE8] hover:text-[#D97706]">IVRS Helpline 1902</a>
-                    <a href="/knowledge-center" className="block px-4 py-2 text-xs font-semibold text-[#002147] hover:bg-[#FEFCE8] hover:text-[#D97706]">Knowledge Center</a>
-                    <a href="/events" className="block px-4 py-2 text-xs font-semibold text-[#002147] hover:bg-[#FEFCE8] hover:text-[#D97706]">Events &amp; Training</a>
+                    <a href="/drda/citizen-services" className="block px-4 py-2 text-xs font-bold text-[#002147] hover:bg-[#FEFCE8] hover:text-[#D97706] border-b border-gray-50">All Citizen Services</a>
+                    <a href="/drda/schemes" className="block px-4 py-2 text-xs font-semibold text-[#002147] hover:bg-[#FEFCE8] hover:text-[#D97706]">Explore Schemes</a>
+                    <a href="/drda/pgrs" className="block px-4 py-2 text-xs font-semibold text-[#002147] hover:bg-[#FEFCE8] hover:text-[#D97706]">Share Concern (PGRS)</a>
+                    <a href="/drda/ivrs" className="block px-4 py-2 text-xs font-semibold text-[#002147] hover:bg-[#FEFCE8] hover:text-[#D97706]">IVRS Helpline 1902</a>
+                    <a href="/drda/knowledge-center" className="block px-4 py-2 text-xs font-semibold text-[#002147] hover:bg-[#FEFCE8] hover:text-[#D97706]">Knowledge Center</a>
+                    <a href="/drda/events" className="block px-4 py-2 text-xs font-semibold text-[#002147] hover:bg-[#FEFCE8] hover:text-[#D97706]">Events &amp; Training</a>
                   </div>
                 </div>
               </li>
               <li className="relative group">
-                <a className="flex items-center gap-1 text-xs font-semibold px-3 py-2 text-[#002147] hover:text-[#D97706] hover:bg-[#FEF9C3] rounded-full transition-colors" href="/schemes">
+                <a className="flex items-center gap-1 text-xs font-semibold px-3 py-2 text-[#002147] hover:text-[#D97706] hover:bg-[#FEF9C3] rounded-full transition-colors" href="/drda/schemes">
                   Schemes
                   <svg xmlns="http://www.w3.org/2000/svg" width="10" height="10" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="m6 9 6 6 6-6"/></svg>
                 </a>
                 <div className="absolute left-0 top-full pt-1 opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-200 z-50">
                   <div className="bg-white rounded-xl shadow-xl border border-gray-100 py-2 w-52 overflow-hidden">
-                    <a href="/schemes" className="block px-4 py-2 text-xs font-semibold text-[#002147] hover:bg-[#FEFCE8] hover:text-[#D97706]">Explore Schemes</a>
-                    <a href="/knowledge-center" className="block px-4 py-2 text-xs font-semibold text-[#002147] hover:bg-[#FEFCE8] hover:text-[#D97706]">Guidelines &amp; Manuals</a>
+                    <a href="/drda/schemes" className="block px-4 py-2 text-xs font-semibold text-[#002147] hover:bg-[#FEFCE8] hover:text-[#D97706]">Explore Schemes</a>
+                    <a href="/drda/knowledge-center" className="block px-4 py-2 text-xs font-semibold text-[#002147] hover:bg-[#FEFCE8] hover:text-[#D97706]">Guidelines &amp; Manuals</a>
                     <a href="https://www.myscheme.gov.in" target="_blank" rel="noopener noreferrer" className="block px-4 py-2 text-xs font-semibold text-[#002147] hover:bg-[#FEFCE8] hover:text-[#D97706]">myScheme Portal ↗</a>
                   </div>
                 </div>
               </li>
               <li className="relative group">
-                <a className="flex items-center gap-1 text-xs font-semibold px-3 py-2 text-[#002147] hover:text-[#D97706] hover:bg-[#FEF9C3] rounded-full transition-colors" href="/fpo">
+                <a className="flex items-center gap-1 text-xs font-semibold px-3 py-2 text-[#002147] hover:text-[#D97706] hover:bg-[#FEF9C3] rounded-full transition-colors" href="/drda/fpo">
                   Livelihoods
                   <svg xmlns="http://www.w3.org/2000/svg" width="10" height="10" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="m6 9 6 6 6-6"/></svg>
                 </a>
                 <div className="absolute left-0 top-full pt-1 opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-200 z-50">
                   <div className="bg-white rounded-xl shadow-xl border border-gray-100 py-2 w-56 overflow-hidden">
-                    <a href="/fpo" className="block px-4 py-2 text-xs font-semibold text-[#002147] hover:bg-[#FEFCE8] hover:text-[#D97706]">FPO Network (15 Mandals)</a>
-                    <a href="/success-stories" className="block px-4 py-2 text-xs font-semibold text-[#002147] hover:bg-[#FEFCE8] hover:text-[#D97706]">Women Entrepreneurship</a>
-                    <a href="/citizen-services" className="block px-4 py-2 text-xs font-semibold text-[#002147] hover:bg-[#FEFCE8] hover:text-[#D97706]">One Family One Entrepreneur</a>
+                    <a href="/drda/fpo" className="block px-4 py-2 text-xs font-semibold text-[#002147] hover:bg-[#FEFCE8] hover:text-[#D97706]">FPO Network (15 Mandals)</a>
+                    <a href="/drda/success-stories" className="block px-4 py-2 text-xs font-semibold text-[#002147] hover:bg-[#FEFCE8] hover:text-[#D97706]">Women Entrepreneurship</a>
+                    <a href="/drda/citizen-services" className="block px-4 py-2 text-xs font-semibold text-[#002147] hover:bg-[#FEFCE8] hover:text-[#D97706]">One Family One Entrepreneur</a>
                   </div>
                 </div>
               </li>
               <li>
-                <a className="text-xs font-semibold px-3 py-2 text-[#002147] hover:text-[#D97706] hover:bg-[#FEF9C3] rounded-full transition-colors" href="/media-coverage">Media</a>
+                <a className="text-xs font-semibold px-3 py-2 text-[#002147] hover:text-[#D97706] hover:bg-[#FEF9C3] rounded-full transition-colors" href="/drda/media-coverage">Media</a>
               </li>
               <li>
-                <a className="text-xs font-semibold px-3 py-2 text-[#002147] hover:text-[#D97706] hover:bg-[#FEF9C3] rounded-full transition-colors" href="/success-stories">Success Stories</a>
+                <a className="text-xs font-semibold px-3 py-2 text-[#002147] hover:text-[#D97706] hover:bg-[#FEF9C3] rounded-full transition-colors" href="/drda/success-stories">Success Stories</a>
               </li>
               <li>
-                <a className="text-xs font-semibold px-3 py-2 text-[#002147] hover:text-[#D97706] hover:bg-[#FEF9C3] rounded-full transition-colors" href="/pgrs">Grievances</a>
+                <a className="text-xs font-semibold px-3 py-2 text-[#002147] hover:text-[#D97706] hover:bg-[#FEF9C3] rounded-full transition-colors" href="/drda/pgrs">Grievances</a>
               </li>
               <li>
-                <a className="text-xs font-semibold px-3 py-2 text-[#002147] hover:text-[#D97706] hover:bg-[#FEF9C3] rounded-full transition-colors" href="/dashboard">Dashboard</a>
+                <a className="text-xs font-semibold px-3 py-2 text-[#002147] hover:text-[#D97706] hover:bg-[#FEF9C3] rounded-full transition-colors" href="/drda/dashboard">Dashboard</a>
               </li>
             </ul>
 
-            <a className="flex items-center gap-1.5 bg-[#FFD22C] hover:bg-[#F59E0B] text-[#0F172A] font-extrabold text-xs px-3.5 py-1.5 rounded-full shadow-sm transition-colors" href="/mart">
+            <a className="flex items-center gap-1.5 bg-[#FFD22C] hover:bg-[#F59E0B] text-[#0F172A] font-extrabold text-xs px-3.5 py-1.5 rounded-full shadow-sm transition-colors" href="/drda/mart">
               <svg xmlns="http://www.w3.org/2000/svg" width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M16 10a4 4 0 0 1-8 0"/><path d="M3.1 6h17.8"/><path d="M3.4 5.5a2 2 0 0 0-.4 1.2V20a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V6.7a2 2 0 0 0-.4-1.2l-2-2.7A2 2 0 0 0 17 2H7a2 2 0 0 0-1.6.8z"/></svg>
               <span>Manyam Mart</span>
               <span className="bg-[#002147] text-[#FFD22C] text-[9px] font-bold px-1.5 py-0.5 rounded-full">NEW</span>
@@ -173,7 +173,7 @@ export default function AdministrativeStructure() {
 
             {/* Rural Women Collective Photo */}
             <img
-              src="/images/women-empowerment.jpg"
+              src="/drda/images/women-empowerment.jpg"
               alt="Rural Women Self-Help Groups Empowerment in Vizianagaram"
               className="w-full h-full object-cover object-[center_35%] sm:object-[60%_35%] opacity-90 lg:opacity-95 filter contrast-105 saturate-110 drop-shadow-sm transition-all duration-700 ease-out"
             />
@@ -191,9 +191,9 @@ export default function AdministrativeStructure() {
           <div className="relative max-w-7xl mx-auto px-4 z-10">
             <div className="max-w-2xl">
               <div className="flex items-center gap-2 text-xs text-[#EA580C] font-bold mb-3 uppercase tracking-wider drop-shadow-sm">
-                <Link className="hover:underline text-[#002147]" href="/">Home</Link>
+                <Link className="hover:underline text-[#002147]" href="/drda/">Home</Link>
                 <span>/</span>
-                <Link className="hover:underline text-[#002147]" href="/about/drda">About</Link>
+                <Link className="hover:underline text-[#002147]" href="/drda/about/drda">About</Link>
                 <span>/</span>
                 <span className="text-[#EA580C]">Administrative Structure</span>
               </div>
@@ -237,16 +237,16 @@ export default function AdministrativeStructure() {
         {/* Section Navigation Strip */}
         <div className="bg-[#FFFDF7] border-b border-[#FDE68A]/60 py-3">
           <div className="max-w-7xl mx-auto px-4 flex flex-wrap items-center justify-center gap-2">
-            <Link href="/about/drda" className="text-xs font-semibold px-4 py-1.5 rounded-full border border-gray-200 hover:bg-[#FEF9C3] hover:text-[#002147] transition-colors">
+            <Link href="/drda/about/drda" className="text-xs font-semibold px-4 py-1.5 rounded-full border border-gray-200 hover:bg-[#FEF9C3] hover:text-[#002147] transition-colors">
               About DRDA
             </Link>
-            <Link href="/about/district" className="text-xs font-semibold px-4 py-1.5 rounded-full border border-gray-200 hover:bg-[#FEF9C3] hover:text-[#002147] transition-colors">
+            <Link href="/drda/about/district" className="text-xs font-semibold px-4 py-1.5 rounded-full border border-gray-200 hover:bg-[#FEF9C3] hover:text-[#002147] transition-colors">
               District Profile
             </Link>
-            <Link href="/about/structure" className="text-xs font-bold px-4 py-1.5 rounded-full bg-[#FFD22C] text-[#0F172A] shadow-sm">
+            <Link href="/drda/about/structure" className="text-xs font-bold px-4 py-1.5 rounded-full bg-[#FFD22C] text-[#0F172A] shadow-sm">
               Administrative Structure
             </Link>
-            <Link href="/about/whos-who" className="text-xs font-semibold px-4 py-1.5 rounded-full border border-gray-200 hover:bg-[#FEF9C3] hover:text-[#002147] transition-colors">
+            <Link href="/drda/about/whos-who" className="text-xs font-semibold px-4 py-1.5 rounded-full border border-gray-200 hover:bg-[#FEF9C3] hover:text-[#002147] transition-colors">
               Who&#x27;s Who
             </Link>
           </div>
@@ -470,7 +470,7 @@ export default function AdministrativeStructure() {
           <div>
             <div className="flex items-center gap-3 mb-4">
               <div className="w-12 h-12 rounded-full bg-white overflow-hidden flex-shrink-0 shadow-lg border-2 border-white/20">
-                <img alt="Government of Andhra Pradesh Emblem" width="48" height="48" className="w-full h-full object-cover" src="/images/ap-emblem.jpg" />
+                <img alt="Government of Andhra Pradesh Emblem" width="48" height="48" className="w-full h-full object-cover" src="/drda/images/ap-emblem.jpg" />
               </div>
               <div>
                 <div className="text-gray-400 text-[10px] leading-tight">Government of Andhra Pradesh</div>
@@ -497,13 +497,13 @@ export default function AdministrativeStructure() {
               Quick Links
             </h4>
             <ul className="text-xs space-y-2 text-gray-300">
-              <li><Link className="hover:text-[#FFD22C] transition-colors" href="/">Home</Link></li>
-              <li><Link className="hover:text-[#FFD22C] transition-colors" href="/about/drda">About Us</Link></li>
-              <li><Link className="hover:text-[#FFD22C] transition-colors" href="/about/district">District Profile</Link></li>
-              <li><Link className="hover:text-[#FFD22C] transition-colors" href="/about/structure">Administrative Structure</Link></li>
-              <li><Link className="hover:text-[#FFD22C] transition-colors" href="/about/whos-who">Who&#x27;s Who</Link></li>
-              <li><Link className="hover:text-[#FFD22C] transition-colors" href="/citizen-services">Citizen Services</Link></li>
-              <li><Link className="hover:text-[#FFD22C] transition-colors" href="/dashboard">Dashboard</Link></li>
+              <li><Link className="hover:text-[#FFD22C] transition-colors" href="/drda/">Home</Link></li>
+              <li><Link className="hover:text-[#FFD22C] transition-colors" href="/drda/about/drda">About Us</Link></li>
+              <li><Link className="hover:text-[#FFD22C] transition-colors" href="/drda/about/district">District Profile</Link></li>
+              <li><Link className="hover:text-[#FFD22C] transition-colors" href="/drda/about/structure">Administrative Structure</Link></li>
+              <li><Link className="hover:text-[#FFD22C] transition-colors" href="/drda/about/whos-who">Who&#x27;s Who</Link></li>
+              <li><Link className="hover:text-[#FFD22C] transition-colors" href="/drda/citizen-services">Citizen Services</Link></li>
+              <li><Link className="hover:text-[#FFD22C] transition-colors" href="/drda/dashboard">Dashboard</Link></li>
             </ul>
           </div>
 
@@ -513,12 +513,12 @@ export default function AdministrativeStructure() {
               Citizen Services
             </h4>
             <ul className="text-xs space-y-2 text-gray-300">
-              <li><Link className="hover:text-[#FFD22C] transition-colors" href="/pgrs">Public Grievances (PGRS)</Link></li>
-              <li><Link className="hover:text-[#FFD22C] transition-colors" href="/ivrs">IVRS Helpline 1902</Link></li>
-              <li><Link className="hover:text-[#FFD22C] transition-colors" href="/schemes">YSR Cheyutha &amp; Aasara</Link></li>
-              <li><Link className="hover:text-[#FFD22C] transition-colors" href="/fpo">FPO Network</Link></li>
-              <li><Link className="hover:text-[#FFD22C] transition-colors" href="/knowledge-center">Downloads &amp; Guidelines</Link></li>
-              <li><Link className="hover:text-[#FFD22C] transition-colors" href="/feedback">Feedback Form</Link></li>
+              <li><Link className="hover:text-[#FFD22C] transition-colors" href="/drda/pgrs">Public Grievances (PGRS)</Link></li>
+              <li><Link className="hover:text-[#FFD22C] transition-colors" href="/drda/ivrs">IVRS Helpline 1902</Link></li>
+              <li><Link className="hover:text-[#FFD22C] transition-colors" href="/drda/schemes">YSR Cheyutha &amp; Aasara</Link></li>
+              <li><Link className="hover:text-[#FFD22C] transition-colors" href="/drda/fpo">FPO Network</Link></li>
+              <li><Link className="hover:text-[#FFD22C] transition-colors" href="/drda/knowledge-center">Downloads &amp; Guidelines</Link></li>
+              <li><Link className="hover:text-[#FFD22C] transition-colors" href="/drda/feedback">Feedback Form</Link></li>
             </ul>
           </div>
 
@@ -545,11 +545,11 @@ export default function AdministrativeStructure() {
           <div className="max-w-7xl mx-auto px-4 flex flex-col sm:flex-row items-center justify-between gap-3">
             <div>© 2026 Vizianagaram District, Andhra Pradesh. All rights reserved.</div>
             <div className="flex items-center gap-4">
-              <a href="/privacy" className="hover:text-white transition-colors">Privacy Policy</a>
+              <a href="/drda/privacy" className="hover:text-white transition-colors">Privacy Policy</a>
               <span className="text-gray-600">•</span>
-              <a href="/terms" className="hover:text-white transition-colors">Terms of Use</a>
+              <a href="/drda/terms" className="hover:text-white transition-colors">Terms of Use</a>
               <span className="text-gray-600">•</span>
-              <a href="/sitemap" className="hover:text-white transition-colors">Sitemap</a>
+              <a href="/drda/sitemap" className="hover:text-white transition-colors">Sitemap</a>
             </div>
             <div className="text-[11px] text-[#FFD22C] font-semibold">Designed for Andhra Pradesh Citizens</div>
           </div>
