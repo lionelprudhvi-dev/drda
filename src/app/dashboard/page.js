@@ -56,7 +56,7 @@ export default function DashboardPage() {
             </a>
             <span className="w-px h-4 bg-white/20"></span>
             <div className="flex items-center gap-1">
-              <a className="relative w-8 h-8 flex items-center justify-center text-white/80 hover:text-[#F59E0B] transition-colors" aria-label="Wishlist" href="/mart/wishlist">
+              <a className="relative w-8 h-8 flex items-center justify-center text-white/80 hover:text-[#F59E0B] transition-colors" aria-label="Wishlist" href="/drda/mart/wishlist">
                 <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="lucide lucide-heart" aria-hidden="true"><path d="M2 9.5a5.5 5.5 0 0 1 9.591-3.676.56.56 0 0 0 .818 0A5.49 5.49 0 0 1 22 9.5c0 2.29-1.5 4-3 5.5l-5.492 5.313a2 2 0 0 1-3 .019L5 15c-1.5-1.5-3-3.2-3-5.5"></path></svg>
               </a>
               <button className="relative w-8 h-8 flex items-center justify-center text-white/80 hover:text-[#F59E0B] transition-colors" aria-label="Open cart">
@@ -72,9 +72,9 @@ export default function DashboardPage() {
         {/* Branding Bar */}
         <div className="bg-white text-[#002147] px-4 py-3 border-b border-[#E2E8F0]">
           <div className="max-w-7xl mx-auto flex items-center justify-between gap-4">
-            <a className="flex items-center gap-3 min-w-0" href="/">
+            <a className="flex items-center gap-3 min-w-0" href="/drda/">
               <div className="w-12 h-12 sm:w-14 sm:h-14 rounded-full bg-white overflow-hidden flex-shrink-0 shadow-md border-2 border-[#E2E8F0]">
-                <img alt="Government of Andhra Pradesh Emblem" width="56" height="56" decoding="async" className="w-full h-full object-cover" src="/images/ap-emblem.jpg" />
+                <img alt="Government of Andhra Pradesh Emblem" width="56" height="56" decoding="async" className="w-full h-full object-cover" src="/drda/images/ap-emblem.jpg" />
               </div>
               <div className="min-w-0">
                 <div className="text-[11px] sm:text-xs text-[#475569] font-medium leading-tight">Government of Andhra Pradesh</div>
@@ -83,7 +83,7 @@ export default function DashboardPage() {
               </div>
             </a>
             <div className="flex items-center gap-2 flex-shrink-0">
-              <a className="md:hidden flex items-center gap-1.5 bg-[#FFD22C] text-[#0F172A] font-bold text-xs px-3 py-2 rounded-full shadow animate-mart-glow" href="/mart">
+              <a className="md:hidden flex items-center gap-1.5 bg-[#FFD22C] text-[#0F172A] font-bold text-xs px-3 py-2 rounded-full shadow animate-mart-glow" href="/drda/mart">
                 <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="lucide lucide-shopping-bag animate-mart-bob" aria-hidden="true"><path d="M16 10a4 4 0 0 1-8 0"></path><path d="M3.103 6.034h17.794"></path><path d="M3.4 5.467a2 2 0 0 0-.4 1.2V20a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V6.667a2 2 0 0 0-.4-1.2l-2-2.667A2 2 0 0 0 17 2H7a2 2 0 0 0-1.6.8z"></path></svg> Mart
               </a>
               <button className="md:hidden text-[#002147] p-1 flex-shrink-0" aria-label="Toggle menu">
@@ -98,30 +98,30 @@ export default function DashboardPage() {
           <div className="max-w-7xl mx-auto px-4 flex items-center justify-between">
             <ul className="flex items-center">
               <li className="relative">
-                <a className="flex items-center gap-1 text-xs font-medium px-3 py-3.5 transition-colors whitespace-nowrap relative text-[#002147] hover:text-[#D97706] hover:bg-[#FEF9C3] rounded-full" href="/">Home</a>
+                <a className="flex items-center gap-1 text-xs font-medium px-3 py-3.5 transition-colors whitespace-nowrap relative text-[#002147] hover:text-[#D97706] hover:bg-[#FEF9C3] rounded-full" href="/drda/">Home</a>
               </li>
               <li className="relative group">
-                <a className="flex items-center gap-1 text-xs font-medium px-3 py-3.5 transition-colors whitespace-nowrap relative text-[#002147] group-hover:text-[#D97706] group-hover:bg-[#FEF9C3] rounded-full" href="/about/drda">
+                <a className="flex items-center gap-1 text-xs font-medium px-3 py-3.5 transition-colors whitespace-nowrap relative text-[#002147] group-hover:text-[#D97706] group-hover:bg-[#FEF9C3] rounded-full" href="/drda/about/drda">
                   About
                   <svg xmlns="http://www.w3.org/2000/svg" width="11" height="11" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="lucide lucide-chevron-down opacity-70" aria-hidden="true"><path d="m6 9 6 6 6-6"></path></svg>
                 </a>
                 <div className="absolute left-0 top-full pt-1 opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-200 z-50">
   <div className="bg-white rounded-xl shadow-xl border border-gray-100 py-2 w-56 overflow-hidden">
-    <a href="/about/drda" className="block px-4 py-2.5 text-xs font-bold text-[#002147] hover:bg-[#FEFCE8] hover:text-[#D97706] border-b border-gray-50">About DRDA</a>
-    <a href="/about/district" className="block px-4 py-2 text-xs font-semibold text-[#002147] hover:bg-[#FEFCE8] hover:text-[#D97706]">District Profile</a>
-    <a href="/about/structure" className="block px-4 py-2 text-xs font-semibold text-[#002147] hover:bg-[#FEFCE8] hover:text-[#D97706]">Administrative Structure</a>
-    <a href="/about/whos-who" className="block px-4 py-2 text-xs font-semibold text-[#002147] hover:bg-[#FEFCE8] hover:text-[#D97706]">Who&#x27;s Who</a>
+    <a href="/drda/about/drda" className="block px-4 py-2.5 text-xs font-bold text-[#002147] hover:bg-[#FEFCE8] hover:text-[#D97706] border-b border-gray-50">About DRDA</a>
+    <a href="/drda/about/district" className="block px-4 py-2 text-xs font-semibold text-[#002147] hover:bg-[#FEFCE8] hover:text-[#D97706]">District Profile</a>
+    <a href="/drda/about/structure" className="block px-4 py-2 text-xs font-semibold text-[#002147] hover:bg-[#FEFCE8] hover:text-[#D97706]">Administrative Structure</a>
+    <a href="/drda/about/whos-who" className="block px-4 py-2 text-xs font-semibold text-[#002147] hover:bg-[#FEFCE8] hover:text-[#D97706]">Who&#x27;s Who</a>
   </div>
 </div>
               </li>
               <li className="relative group">
-                <a className="flex items-center gap-1 text-xs font-medium px-3 py-3.5 transition-colors whitespace-nowrap relative text-[#002147] group-hover:text-[#D97706] group-hover:bg-[#FEF9C3] rounded-full" href="/citizen-services">
+                <a className="flex items-center gap-1 text-xs font-medium px-3 py-3.5 transition-colors whitespace-nowrap relative text-[#002147] group-hover:text-[#D97706] group-hover:bg-[#FEF9C3] rounded-full" href="/drda/citizen-services">
                   Citizen Services
                   <svg xmlns="http://www.w3.org/2000/svg" width="11" height="11" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="lucide lucide-chevron-down opacity-70" aria-hidden="true"><path d="m6 9 6 6 6-6"></path></svg>
                 </a>
                 <div className="absolute left-0 top-full pt-1 opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-200 z-50">
                   <div className="bg-white rounded-lg shadow-xl border border-gray-100 py-2 w-64">
-                    <a href="/citizen-services" className="block px-4 py-2 text-sm font-bold text-[#002147] hover:bg-[#FEF9C3] transition-colors border-b border-gray-50">All Citizen Services</a>
+                    <a href="/drda/citizen-services" className="block px-4 py-2 text-sm font-bold text-[#002147] hover:bg-[#FEF9C3] transition-colors border-b border-gray-50">All Citizen Services</a>
                     <div className="relative group/sub1">
                       <div className="flex items-center justify-between px-4 py-2 text-sm text-gray-700 hover:bg-gray-50 cursor-default">
                         Schemes & Learning
@@ -129,9 +129,9 @@ export default function DashboardPage() {
                       </div>
                       <div className="absolute left-full top-0 opacity-0 invisible group-hover/sub1:opacity-100 group-hover/sub1:visible transition-all duration-200 z-50">
                         <div className="bg-white rounded-lg shadow-xl border border-gray-100 py-2 w-48 ml-1">
-                          <a href="/schemes" className="block px-4 py-2 text-sm text-gray-700 hover:bg-[#FEF9C3] transition-colors">Explore Schemes</a>
-                          <a href="/knowledge-center" className="block px-4 py-2 text-sm text-gray-700 hover:bg-[#FEF9C3] transition-colors">Knowledge Center</a>
-                          <a href="/events" className="block px-4 py-2 text-sm text-gray-700 hover:bg-[#FEF9C3] transition-colors">Events & Training</a>
+                          <a href="/drda/schemes" className="block px-4 py-2 text-sm text-gray-700 hover:bg-[#FEF9C3] transition-colors">Explore Schemes</a>
+                          <a href="/drda/knowledge-center" className="block px-4 py-2 text-sm text-gray-700 hover:bg-[#FEF9C3] transition-colors">Knowledge Center</a>
+                          <a href="/drda/events" className="block px-4 py-2 text-sm text-gray-700 hover:bg-[#FEF9C3] transition-colors">Events & Training</a>
                         </div>
                       </div>
                     </div>
@@ -142,9 +142,9 @@ export default function DashboardPage() {
                       </div>
                       <div className="absolute left-full top-0 opacity-0 invisible group-hover/sub2:opacity-100 group-hover/sub2:visible transition-all duration-200 z-50">
                         <div className="bg-white rounded-lg shadow-xl border border-gray-100 py-2 w-56 ml-1">
-                          <a href="/pgrs" className="block px-4 py-2 text-sm text-gray-700 hover:bg-[#FEF9C3] transition-colors">Share Your Concern (PGRS)</a>
-                          <a href="/ivrs" className="block px-4 py-2 text-sm text-gray-700 hover:bg-[#FEF9C3] transition-colors">IVRS Services (1902)</a>
-                          <a href="/feedback" className="block px-4 py-2 text-sm text-gray-700 hover:bg-[#FEF9C3] transition-colors">Feedback</a>
+                          <a href="/drda/pgrs" className="block px-4 py-2 text-sm text-gray-700 hover:bg-[#FEF9C3] transition-colors">Share Your Concern (PGRS)</a>
+                          <a href="/drda/ivrs" className="block px-4 py-2 text-sm text-gray-700 hover:bg-[#FEF9C3] transition-colors">IVRS Services (1902)</a>
+                          <a href="/drda/feedback" className="block px-4 py-2 text-sm text-gray-700 hover:bg-[#FEF9C3] transition-colors">Feedback</a>
                         </div>
                       </div>
                     </div>
@@ -155,58 +155,58 @@ export default function DashboardPage() {
                       </div>
                       <div className="absolute left-full top-0 opacity-0 invisible group-hover/sub3:opacity-100 group-hover/sub3:visible transition-all duration-200 z-50">
                         <div className="bg-white rounded-lg shadow-xl border border-gray-100 py-2 w-48 ml-1">
-                          <a href="/fpo" className="block px-4 py-2 text-sm text-gray-700 hover:bg-[#FEF9C3] transition-colors">FPO Network</a>
-                          <a href="/community-tourism" className="block px-4 py-2 text-sm text-gray-700 hover:bg-[#FEF9C3] transition-colors">Community Tourism</a>
+                          <a href="/drda/fpo" className="block px-4 py-2 text-sm text-gray-700 hover:bg-[#FEF9C3] transition-colors">FPO Network</a>
+                          <a href="/drda/community-tourism" className="block px-4 py-2 text-sm text-gray-700 hover:bg-[#FEF9C3] transition-colors">Community Tourism</a>
                         </div>
                       </div>
                     </div>
-                    <a href="/contact" className="block px-4 py-2 text-sm font-bold text-[#002147] hover:bg-[#FEF9C3] transition-colors border-t border-gray-50">Contact Directory</a>
+                    <a href="/drda/contact" className="block px-4 py-2 text-sm font-bold text-[#002147] hover:bg-[#FEF9C3] transition-colors border-t border-gray-50">Contact Directory</a>
                   </div>
                 </div>
               </li>
               <li className="relative group">
-                <a className="flex items-center gap-1 text-xs font-medium px-3 py-3.5 transition-colors whitespace-nowrap relative text-[#002147] group-hover:text-[#D97706] group-hover:bg-[#FEF9C3] rounded-full" href="/schemes">
+                <a className="flex items-center gap-1 text-xs font-medium px-3 py-3.5 transition-colors whitespace-nowrap relative text-[#002147] group-hover:text-[#D97706] group-hover:bg-[#FEF9C3] rounded-full" href="/drda/schemes">
                   Schemes
                   <svg xmlns="http://www.w3.org/2000/svg" width="11" height="11" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="lucide lucide-chevron-down opacity-70" aria-hidden="true"><path d="m6 9 6 6 6-6"></path></svg>
                 </a>
                 <div className="absolute left-0 top-full pt-1 opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-200 z-50">
                   <div className="bg-white rounded-lg shadow-xl border border-gray-100 py-2 w-48 overflow-hidden">
-                    <a href="/schemes" className="block px-4 py-2 text-sm text-gray-700 hover:bg-[#FEF9C3] hover:text-[#002147] transition-colors">Explore Schemes</a>
-                    <a href="/knowledge-center" className="block px-4 py-2 text-sm text-gray-700 hover:bg-[#FEF9C3] hover:text-[#002147] transition-colors">Knowledge Center</a>
-                    <a href="/events" className="block px-4 py-2 text-sm text-gray-700 hover:bg-[#FEF9C3] hover:text-[#002147] transition-colors">Events & Training</a>
+                    <a href="/drda/schemes" className="block px-4 py-2 text-sm text-gray-700 hover:bg-[#FEF9C3] hover:text-[#002147] transition-colors">Explore Schemes</a>
+                    <a href="/drda/knowledge-center" className="block px-4 py-2 text-sm text-gray-700 hover:bg-[#FEF9C3] hover:text-[#002147] transition-colors">Knowledge Center</a>
+                    <a href="/drda/events" className="block px-4 py-2 text-sm text-gray-700 hover:bg-[#FEF9C3] hover:text-[#002147] transition-colors">Events & Training</a>
                   </div>
                 </div>
               </li>
               <li className="relative group">
-                <a className="flex items-center gap-1 text-xs font-medium px-3 py-3.5 transition-colors whitespace-nowrap relative text-[#002147] group-hover:text-[#D97706] group-hover:bg-[#FEF9C3] rounded-full" href="/livelihood">
+                <a className="flex items-center gap-1 text-xs font-medium px-3 py-3.5 transition-colors whitespace-nowrap relative text-[#002147] group-hover:text-[#D97706] group-hover:bg-[#FEF9C3] rounded-full" href="/drda/livelihood">
                   Livelihoods
                   <svg xmlns="http://www.w3.org/2000/svg" width="11" height="11" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="lucide lucide-chevron-down opacity-70" aria-hidden="true"><path d="m6 9 6 6 6-6"></path></svg>
                 </a>
                 <div className="absolute left-0 top-full pt-1 opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-200 z-50">
                   <div className="bg-white rounded-xl shadow-xl border border-gray-100 py-2.5 w-60 overflow-hidden">
-                    <a href="/fpo" className="block px-5 py-2.5 text-sm font-semibold text-[#002147] hover:bg-[#FEF9C3] hover:text-[#002147] transition-colors">FPOs</a>
-                    <a href="/women-entrepreneurship" className="block px-5 py-2.5 text-sm font-semibold text-[#002147] hover:bg-[#FEF9C3] hover:text-[#002147] transition-colors">Women Entrepreneurship</a>
-                    <a href="/one-family-one-entrepreneur" className="block px-5 py-2.5 text-sm font-semibold text-[#002147] hover:bg-[#FEF9C3] hover:text-[#002147] transition-colors">One Family One Entrepreneur</a>
-                    <a href="/livelihood" className="block px-5 py-2.5 text-sm font-semibold text-[#002147] hover:bg-[#FEF9C3] hover:text-[#002147] transition-colors">Livelihood Projects</a>
-                    <a href="/community-tourism" className="block px-5 py-2.5 text-sm font-semibold text-[#002147] hover:bg-[#FEF9C3] hover:text-[#002147] transition-colors">Community Tourism</a>
-                    <a href="/serp" className="block px-5 py-2.5 text-sm font-semibold text-[#002147] hover:bg-[#FEF9C3] hover:text-[#002147] transition-colors">SERP Corner</a>
+                    <a href="/drda/fpo" className="block px-5 py-2.5 text-sm font-semibold text-[#002147] hover:bg-[#FEF9C3] hover:text-[#002147] transition-colors">FPOs</a>
+                    <a href="/drda/women-entrepreneurship" className="block px-5 py-2.5 text-sm font-semibold text-[#002147] hover:bg-[#FEF9C3] hover:text-[#002147] transition-colors">Women Entrepreneurship</a>
+                    <a href="/drda/one-family-one-entrepreneur" className="block px-5 py-2.5 text-sm font-semibold text-[#002147] hover:bg-[#FEF9C3] hover:text-[#002147] transition-colors">One Family One Entrepreneur</a>
+                    <a href="/drda/livelihood" className="block px-5 py-2.5 text-sm font-semibold text-[#002147] hover:bg-[#FEF9C3] hover:text-[#002147] transition-colors">Livelihood Projects</a>
+                    <a href="/drda/community-tourism" className="block px-5 py-2.5 text-sm font-semibold text-[#002147] hover:bg-[#FEF9C3] hover:text-[#002147] transition-colors">Community Tourism</a>
+                    <a href="/drda/serp" className="block px-5 py-2.5 text-sm font-semibold text-[#002147] hover:bg-[#FEF9C3] hover:text-[#002147] transition-colors">SERP Corner</a>
                   </div>
                 </div>
               </li>
               <li className="relative">
-                <a className="flex items-center gap-1 text-xs font-medium px-3 py-3.5 transition-colors whitespace-nowrap relative text-[#002147] hover:text-[#D97706] hover:bg-[#FEF9C3] rounded-full" href="/press-releases#media-coverage">Media Coverage</a>
+                <a className="flex items-center gap-1 text-xs font-medium px-3 py-3.5 transition-colors whitespace-nowrap relative text-[#002147] hover:text-[#D97706] hover:bg-[#FEF9C3] rounded-full" href="/drda/press-releases#media-coverage">Media Coverage</a>
               </li>
               <li className="relative">
-                <a className="flex items-center gap-1 text-xs font-medium px-3 py-3.5 transition-colors whitespace-nowrap relative text-[#002147] hover:text-[#D97706] hover:bg-[#FEF9C3] rounded-full" href="/success-stories">Success Stories</a>
+                <a className="flex items-center gap-1 text-xs font-medium px-3 py-3.5 transition-colors whitespace-nowrap relative text-[#002147] hover:text-[#D97706] hover:bg-[#FEF9C3] rounded-full" href="/drda/success-stories">Success Stories</a>
               </li>
               <li className="relative">
-                <a className="flex items-center gap-1 text-xs font-medium px-3 py-3.5 transition-colors whitespace-nowrap relative text-[#FFD22C]" href="/dashboard">
+                <a className="flex items-center gap-1 text-xs font-medium px-3 py-3.5 transition-colors whitespace-nowrap relative text-[#FFD22C]" href="/drda/dashboard">
                   Dashboard
                   <span className="absolute bottom-0 left-3 right-3 h-0.5 bg-[#F59E0B] rounded-full"></span>
                 </a>
               </li>
             </ul>
-            <a className="group flex items-center gap-2 bg-[#FFD22C] hover:bg-[#F59E0B] text-[#0F172A] font-extrabold text-sm pl-3 pr-4 py-1.5 my-1.5 rounded-full shadow-md animate-mart-glow transition-colors" href="/mart">
+            <a className="group flex items-center gap-2 bg-[#FFD22C] hover:bg-[#F59E0B] text-[#0F172A] font-extrabold text-sm pl-3 pr-4 py-1.5 my-1.5 rounded-full shadow-md animate-mart-glow transition-colors" href="/drda/mart">
               <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="lucide lucide-shopping-bag animate-mart-bob" aria-hidden="true"><path d="M16 10a4 4 0 0 1-8 0"></path><path d="M3.103 6.034h17.794"></path><path d="M3.4 5.467a2 2 0 0 0-.4 1.2V20a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V6.667a2 2 0 0 0-.4-1.2l-2-2.667A2 2 0 0 0 17 2H7a2 2 0 0 0-1.6.8z"></path></svg>
               <span>Manyam Mart</span>
               <span className="flex items-center gap-0.5 bg-[#002147] text-[#FFD22C] text-[9px] font-bold px-1.5 py-0.5 rounded-full">
@@ -224,7 +224,7 @@ export default function DashboardPage() {
           <div className="bg-gradient-to-br from-[#FFFDF7] via-[#FFFBEB] to-[#FEF3C7] text-[#002147] py-12 sm:py-16 relative overflow-hidden border-b border-[#FDE68A]">
             <div className="max-w-7xl mx-auto px-4">
               <div className="text-xs text-[#EA580C] font-bold mb-2 flex items-center gap-2">
-                <a className="hover:text-white" href="/">Home</a> <span>/</span><span>Dashboard</span>
+                <a className="hover:text-white" href="/drda/">Home</a> <span>/</span><span>Dashboard</span>
               </div>
               <h1 className="text-3xl sm:text-4xl font-black text-[#002147] mb-3 tracking-tight">Transparency Dashboard</h1>
               <p className="text-[#334155] max-w-2xl font-medium">
@@ -952,7 +952,7 @@ export default function DashboardPage() {
           <div>
             <div className="flex items-center gap-3 mb-4">
               <div className="w-14 h-14 rounded-full bg-white overflow-hidden flex-shrink-0 shadow-lg border-2 border-white/20">
-                <img alt="Government of Andhra Pradesh Emblem" loading="lazy" width="56" height="56" className="w-full h-full object-cover" src="/images/ap-emblem.jpg" />
+                <img alt="Government of Andhra Pradesh Emblem" loading="lazy" width="56" height="56" className="w-full h-full object-cover" src="/drda/images/ap-emblem.jpg" />
               </div>
               <div>
                 <div className="text-gray-400 text-[10px] leading-tight">Government of Andhra Pradesh</div>
@@ -983,28 +983,28 @@ export default function DashboardPage() {
           <div>
             <h3 className="text-white text-xs font-bold uppercase tracking-widest mb-4 border-b border-gray-800 pb-2">Quick Links</h3>
             <ul className="space-y-2">
-              <li><a className="text-xs hover:text-[#FFD22C] transition-colors flex items-center gap-1.5" href="/"><span className="text-[#FFD22C] text-xs">›</span> Home</a></li>
-              <li><a className="text-xs hover:text-[#FFD22C] transition-colors flex items-center gap-1.5" href="/about/drda"><span className="text-[#FFD22C] text-xs">›</span> About DRDA</a></li>
-              <li><a className="text-xs hover:text-[#FFD22C] transition-colors flex items-center gap-1.5" href="/about/district"><span className="text-[#FFD22C] text-xs">›</span> District Profile</a></li>
-              <li><a className="text-xs hover:text-[#FFD22C] transition-colors flex items-center gap-1.5" href="/schemes"><span className="text-[#FFD22C] text-xs">›</span> Government Schemes</a></li>
-              <li><a className="text-xs hover:text-[#FFD22C] transition-colors flex items-center gap-1.5" href="/press-releases#media-coverage"><span className="text-[#FFD22C] text-xs">›</span> Media Coverage</a></li>
-              <li><a className="text-xs hover:text-[#FFD22C] transition-colors flex items-center gap-1.5" href="/success-stories"><span className="text-[#FFD22C] text-xs">›</span> Success Stories</a></li>
-              <li><a className="text-xs hover:text-[#FFD22C] transition-colors flex items-center gap-1.5" href="/dashboard"><span className="text-[#FFD22C] text-xs">›</span> Dashboard</a></li>
-              <li><a className="text-xs hover:text-[#FFD22C] transition-colors flex items-center gap-1.5" href="/about/whos-who"><span className="text-[#FFD22C] text-xs">›</span> Who&#x27;s Who</a></li>
-              <li><a className="text-xs hover:text-[#FFD22C] transition-colors flex items-center gap-1.5" href="/sitemap"><span className="text-[#FFD22C] text-xs">›</span> Sitemap</a></li>
+              <li><a className="text-xs hover:text-[#FFD22C] transition-colors flex items-center gap-1.5" href="/drda/"><span className="text-[#FFD22C] text-xs">›</span> Home</a></li>
+              <li><a className="text-xs hover:text-[#FFD22C] transition-colors flex items-center gap-1.5" href="/drda/about/drda"><span className="text-[#FFD22C] text-xs">›</span> About DRDA</a></li>
+              <li><a className="text-xs hover:text-[#FFD22C] transition-colors flex items-center gap-1.5" href="/drda/about/district"><span className="text-[#FFD22C] text-xs">›</span> District Profile</a></li>
+              <li><a className="text-xs hover:text-[#FFD22C] transition-colors flex items-center gap-1.5" href="/drda/schemes"><span className="text-[#FFD22C] text-xs">›</span> Government Schemes</a></li>
+              <li><a className="text-xs hover:text-[#FFD22C] transition-colors flex items-center gap-1.5" href="/drda/press-releases#media-coverage"><span className="text-[#FFD22C] text-xs">›</span> Media Coverage</a></li>
+              <li><a className="text-xs hover:text-[#FFD22C] transition-colors flex items-center gap-1.5" href="/drda/success-stories"><span className="text-[#FFD22C] text-xs">›</span> Success Stories</a></li>
+              <li><a className="text-xs hover:text-[#FFD22C] transition-colors flex items-center gap-1.5" href="/drda/dashboard"><span className="text-[#FFD22C] text-xs">›</span> Dashboard</a></li>
+              <li><a className="text-xs hover:text-[#FFD22C] transition-colors flex items-center gap-1.5" href="/drda/about/whos-who"><span className="text-[#FFD22C] text-xs">›</span> Who&#x27;s Who</a></li>
+              <li><a className="text-xs hover:text-[#FFD22C] transition-colors flex items-center gap-1.5" href="/drda/sitemap"><span className="text-[#FFD22C] text-xs">›</span> Sitemap</a></li>
             </ul>
           </div>
 
           <div>
             <h3 className="text-white text-xs font-bold uppercase tracking-widest mb-4 border-b border-gray-800 pb-2">Citizen Services</h3>
             <ul className="space-y-2">
-              <li><a className="text-xs hover:text-[#FFD22C] transition-colors flex items-center gap-1.5" href="/pgrs"><span className="text-[#FFD22C] text-xs">›</span> Share Your Concern (PGRS)</a></li>
-              <li><a className="text-xs hover:text-[#FFD22C] transition-colors flex items-center gap-1.5" href="/ivrs"><span className="text-[#FFD22C] text-xs">›</span> IVRS Services (1902)</a></li>
-              <li><a className="text-xs hover:text-[#FFD22C] transition-colors flex items-center gap-1.5" href="/serp"><span className="text-[#FFD22C] text-xs">›</span> SERP Corner</a></li>
-              <li><a className="text-xs hover:text-[#FFD22C] transition-colors flex items-center gap-1.5" href="/fpo"><span className="text-[#FFD22C] text-xs">›</span> FPO Network</a></li>
-              <li><a className="text-xs hover:text-[#FFD22C] transition-colors flex items-center gap-1.5" href="/women-entrepreneurship"><span className="text-[#FFD22C] text-xs">›</span> Women Entrepreneurship</a></li>
-              <li><a className="text-xs hover:text-[#FFD22C] transition-colors flex items-center gap-1.5" href="/one-family-one-entrepreneur"><span className="text-[#FFD22C] text-xs">›</span> One Family One Entrepreneur</a></li>
-              <li><a className="text-xs hover:text-[#FFD22C] transition-colors flex items-center gap-1.5" href="/community-tourism"><span className="text-[#FFD22C] text-xs">›</span> Community Tourism</a></li>
+              <li><a className="text-xs hover:text-[#FFD22C] transition-colors flex items-center gap-1.5" href="/drda/pgrs"><span className="text-[#FFD22C] text-xs">›</span> Share Your Concern (PGRS)</a></li>
+              <li><a className="text-xs hover:text-[#FFD22C] transition-colors flex items-center gap-1.5" href="/drda/ivrs"><span className="text-[#FFD22C] text-xs">›</span> IVRS Services (1902)</a></li>
+              <li><a className="text-xs hover:text-[#FFD22C] transition-colors flex items-center gap-1.5" href="/drda/serp"><span className="text-[#FFD22C] text-xs">›</span> SERP Corner</a></li>
+              <li><a className="text-xs hover:text-[#FFD22C] transition-colors flex items-center gap-1.5" href="/drda/fpo"><span className="text-[#FFD22C] text-xs">›</span> FPO Network</a></li>
+              <li><a className="text-xs hover:text-[#FFD22C] transition-colors flex items-center gap-1.5" href="/drda/women-entrepreneurship"><span className="text-[#FFD22C] text-xs">›</span> Women Entrepreneurship</a></li>
+              <li><a className="text-xs hover:text-[#FFD22C] transition-colors flex items-center gap-1.5" href="/drda/one-family-one-entrepreneur"><span className="text-[#FFD22C] text-xs">›</span> One Family One Entrepreneur</a></li>
+              <li><a className="text-xs hover:text-[#FFD22C] transition-colors flex items-center gap-1.5" href="/drda/community-tourism"><span className="text-[#FFD22C] text-xs">›</span> Community Tourism</a></li>
             </ul>
           </div>
 
@@ -1060,8 +1060,8 @@ export default function DashboardPage() {
           <div className="max-w-7xl mx-auto px-4 py-4 flex flex-col sm:flex-row items-center justify-between gap-2 text-xs text-gray-600">
             <span>© 2026 DRDA Vizianagaram District. Government of Andhra Pradesh. All rights reserved.</span>
             <div className="flex items-center gap-4">
-              <a className="hover:text-gray-400 transition-colors" href="/accessibility">Accessibility</a>
-              <a className="hover:text-gray-400 transition-colors" href="/sitemap">Sitemap</a>
+              <a className="hover:text-gray-400 transition-colors" href="/drda/accessibility">Accessibility</a>
+              <a className="hover:text-gray-400 transition-colors" href="/drda/sitemap">Sitemap</a>
               <span className="text-gray-700">Designed for citizens.</span>
             </div>
           </div>
