@@ -41,7 +41,7 @@ export default function AdministrativeStructure() {
         {/* 2. Main White Branding Bar */}
         <div className="bg-white text-[#002147] px-4 py-3 border-b border-[#E2E8F0]">
           <div className="max-w-7xl mx-auto flex items-center justify-between gap-4">
-            <Link className="flex items-center gap-3 min-w-0" href="/drda/">
+            <Link className="flex items-center gap-3 min-w-0" href="/">
               <div className="w-12 h-12 sm:w-14 sm:h-14 rounded-full bg-white overflow-hidden flex-shrink-0 shadow-md border-2 border-[#E2E8F0]">
                 <img alt="Government of Andhra Pradesh Emblem" width="56" height="56" className="w-full h-full object-cover" src="/drda/images/ap-emblem.jpg" />
               </div>
@@ -71,7 +71,7 @@ export default function AdministrativeStructure() {
           <div className="max-w-7xl mx-auto px-4 flex items-center justify-between">
             <ul className="flex items-center gap-1 py-1">
               <li>
-                <Link className="text-xs font-semibold px-3 py-2 text-[#002147] hover:text-[#D97706] hover:bg-[#FEF9C3] rounded-full transition-colors inline-block" href="/drda/">Home</Link>
+                <Link className="text-xs font-semibold px-3 py-2 text-[#002147] hover:text-[#D97706] hover:bg-[#FEF9C3] rounded-full transition-colors inline-block" href="/">Home</Link>
               </li>
               {/* Active About Dropdown */}
               <li className="relative group">
@@ -191,9 +191,9 @@ export default function AdministrativeStructure() {
           <div className="relative max-w-7xl mx-auto px-4 z-10">
             <div className="max-w-2xl">
               <div className="flex items-center gap-2 text-xs text-[#EA580C] font-bold mb-3 uppercase tracking-wider drop-shadow-sm">
-                <Link className="hover:underline text-[#002147]" href="/drda/">Home</Link>
+                <Link className="hover:underline text-[#002147]" href="/">Home</Link>
                 <span>/</span>
-                <Link className="hover:underline text-[#002147]" href="/drda/about/drda">About</Link>
+                <Link className="hover:underline text-[#002147]" href="/about/drda">About</Link>
                 <span>/</span>
                 <span className="text-[#EA580C]">Administrative Structure</span>
               </div>
@@ -237,16 +237,16 @@ export default function AdministrativeStructure() {
         {/* Section Navigation Strip */}
         <div className="bg-[#FFFDF7] border-b border-[#FDE68A]/60 py-3">
           <div className="max-w-7xl mx-auto px-4 flex flex-wrap items-center justify-center gap-2">
-            <Link href="/drda/about/drda" className="text-xs font-semibold px-4 py-1.5 rounded-full border border-gray-200 hover:bg-[#FEF9C3] hover:text-[#002147] transition-colors">
+            <Link href="/about/drda" className="text-xs font-semibold px-4 py-1.5 rounded-full border border-gray-200 hover:bg-[#FEF9C3] hover:text-[#002147] transition-colors">
               About DRDA
             </Link>
-            <Link href="/drda/about/district" className="text-xs font-semibold px-4 py-1.5 rounded-full border border-gray-200 hover:bg-[#FEF9C3] hover:text-[#002147] transition-colors">
+            <Link href="/about/district" className="text-xs font-semibold px-4 py-1.5 rounded-full border border-gray-200 hover:bg-[#FEF9C3] hover:text-[#002147] transition-colors">
               District Profile
             </Link>
-            <Link href="/drda/about/structure" className="text-xs font-bold px-4 py-1.5 rounded-full bg-[#FFD22C] text-[#0F172A] shadow-sm">
+            <Link href="/about/structure" className="text-xs font-bold px-4 py-1.5 rounded-full bg-[#FFD22C] text-[#0F172A] shadow-sm">
               Administrative Structure
             </Link>
-            <Link href="/drda/about/whos-who" className="text-xs font-semibold px-4 py-1.5 rounded-full border border-gray-200 hover:bg-[#FEF9C3] hover:text-[#002147] transition-colors">
+            <Link href="/about/whos-who" className="text-xs font-semibold px-4 py-1.5 rounded-full border border-gray-200 hover:bg-[#FEF9C3] hover:text-[#002147] transition-colors">
               Who&#x27;s Who
             </Link>
           </div>
@@ -497,13 +497,13 @@ export default function AdministrativeStructure() {
               Quick Links
             </h4>
             <ul className="text-xs space-y-2 text-gray-300">
-              <li><Link className="hover:text-[#FFD22C] transition-colors" href="/drda/">Home</Link></li>
-              <li><Link className="hover:text-[#FFD22C] transition-colors" href="/drda/about/drda">About Us</Link></li>
-              <li><Link className="hover:text-[#FFD22C] transition-colors" href="/drda/about/district">District Profile</Link></li>
-              <li><Link className="hover:text-[#FFD22C] transition-colors" href="/drda/about/structure">Administrative Structure</Link></li>
-              <li><Link className="hover:text-[#FFD22C] transition-colors" href="/drda/about/whos-who">Who&#x27;s Who</Link></li>
-              <li><Link className="hover:text-[#FFD22C] transition-colors" href="/drda/citizen-services">Citizen Services</Link></li>
-              <li><Link className="hover:text-[#FFD22C] transition-colors" href="/drda/dashboard">Dashboard</Link></li>
+              <li><Link className="hover:text-[#FFD22C] transition-colors" href="/">Home</Link></li>
+              <li><Link className="hover:text-[#FFD22C] transition-colors" href="/about/drda">About Us</Link></li>
+              <li><Link className="hover:text-[#FFD22C] transition-colors" href="/about/district">District Profile</Link></li>
+              <li><Link className="hover:text-[#FFD22C] transition-colors" href="/about/structure">Administrative Structure</Link></li>
+              <li><Link className="hover:text-[#FFD22C] transition-colors" href="/about/whos-who">Who&#x27;s Who</Link></li>
+              <li><Link className="hover:text-[#FFD22C] transition-colors" href="/citizen-services">Citizen Services</Link></li>
+              <li><Link className="hover:text-[#FFD22C] transition-colors" href="/dashboard">Dashboard</Link></li>
             </ul>
           </div>
 
@@ -513,12 +513,12 @@ export default function AdministrativeStructure() {
               Citizen Services
             </h4>
             <ul className="text-xs space-y-2 text-gray-300">
-              <li><Link className="hover:text-[#FFD22C] transition-colors" href="/drda/pgrs">Public Grievances (PGRS)</Link></li>
-              <li><Link className="hover:text-[#FFD22C] transition-colors" href="/drda/ivrs">IVRS Helpline 1902</Link></li>
-              <li><Link className="hover:text-[#FFD22C] transition-colors" href="/drda/schemes">YSR Cheyutha &amp; Aasara</Link></li>
-              <li><Link className="hover:text-[#FFD22C] transition-colors" href="/drda/fpo">FPO Network</Link></li>
-              <li><Link className="hover:text-[#FFD22C] transition-colors" href="/drda/knowledge-center">Downloads &amp; Guidelines</Link></li>
-              <li><Link className="hover:text-[#FFD22C] transition-colors" href="/drda/feedback">Feedback Form</Link></li>
+              <li><Link className="hover:text-[#FFD22C] transition-colors" href="/pgrs">Public Grievances (PGRS)</Link></li>
+              <li><Link className="hover:text-[#FFD22C] transition-colors" href="/ivrs">IVRS Helpline 1902</Link></li>
+              <li><Link className="hover:text-[#FFD22C] transition-colors" href="/schemes">YSR Cheyutha &amp; Aasara</Link></li>
+              <li><Link className="hover:text-[#FFD22C] transition-colors" href="/fpo">FPO Network</Link></li>
+              <li><Link className="hover:text-[#FFD22C] transition-colors" href="/knowledge-center">Downloads &amp; Guidelines</Link></li>
+              <li><Link className="hover:text-[#FFD22C] transition-colors" href="/feedback">Feedback Form</Link></li>
             </ul>
           </div>
 
