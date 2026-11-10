@@ -25,7 +25,7 @@ export default function Home() {
               </a>
               <span className="w-px h-3 bg-[#BAE6FD]"></span>
               <div className="flex items-center gap-2 text-[#475569] text-[11px]">
-                <Link href="/drda/" className="hover:text-[#002147]">Home</Link>
+                <Link href="/" className="hover:text-[#002147]">Home</Link>
                 <span>|</span>
                 <a href="/drda/sitemap" className="hover:text-[#002147]">Sitemap</a>
                 <span>|</span>
@@ -44,7 +44,7 @@ export default function Home() {
         {/* 2. Main White Branding Bar */}
         <div className="bg-white text-[#002147] px-4 py-3 border-b border-[#E2E8F0]">
           <div className="max-w-7xl mx-auto flex items-center justify-between gap-4">
-            <Link className="flex items-center gap-3 min-w-0" href="/drda/">
+            <Link className="flex items-center gap-3 min-w-0" href="/">
               <div className="w-12 h-12 sm:w-14 sm:h-14 rounded-full bg-white overflow-hidden flex-shrink-0 shadow-md border-2 border-[#E2E8F0]">
                 <img alt="Government of Andhra Pradesh Emblem" width="56" height="56" className="w-full h-full object-cover" src="/drda/images/ap-emblem.jpg" />
               </div>
@@ -76,7 +76,7 @@ export default function Home() {
             <ul className="flex items-center gap-1 py-1">
               {/* Active Home Tab as Golden Yellow Pill */}
               <li>
-                <Link className="bg-[#FFD22C] text-[#0F172A] font-extrabold text-xs px-4 py-1.5 rounded-full shadow-sm inline-block" href="/drda/">Home</Link>
+                <Link className="bg-[#FFD22C] text-[#0F172A] font-extrabold text-xs px-4 py-1.5 rounded-full shadow-sm inline-block" href="/">Home</Link>
               </li>
               <li className="relative group">
                 <a className="flex items-center gap-1 text-xs font-semibold px-3 py-2 text-[#002147] hover:text-[#D97706] hover:bg-[#FEF9C3] rounded-full transition-colors" href="/drda/about/drda">
@@ -947,7 +947,7 @@ export default function Home() {
           <div>
             <h3 className="text-white text-xs font-bold uppercase tracking-widest mb-4 border-b border-gray-700/50 pb-2">Quick Links</h3>
             <ul className="space-y-2 text-xs">
-              <li><Link className="hover:text-[#FFD22C] transition-colors flex items-center gap-1.5" href="/drda/"><span className="text-[#FFD22C]">›</span> Home</Link></li>
+              <li><Link className="hover:text-[#FFD22C] transition-colors flex items-center gap-1.5" href="/"><span className="text-[#FFD22C]">›</span> Home</Link></li>
               <li><a className="hover:text-[#FFD22C] transition-colors flex items-center gap-1.5" href="/drda/about/district"><span className="text-[#FFD22C]">›</span> About District</a></li>
               <li><a className="hover:text-[#FFD22C] transition-colors flex items-center gap-1.5" href="/drda/citizen-services"><span className="text-[#FFD22C]">›</span> Citizen Services</a></li>
               <li><a className="hover:text-[#FFD22C] transition-colors flex items-center gap-1.5" href="/drda/schemes"><span className="text-[#FFD22C]">›</span> Schemes</a></li>
